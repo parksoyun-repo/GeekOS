@@ -1,0 +1,1504 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL_TARGETS	build/Makefile	/^ALL_TARGETS := fd.img diskc.img$/;"	m
+ALT_MASK	src/geekos/keyboard.c	53;"	d	file:
+AMBER	include/geekos/screen.h	21;"	d
+ASCII_BS	include/geekos/keyboard.h	118;"	d
+ASCII_ESC	include/geekos/keyboard.h	117;"	d
+ASSERT	src/common/fmtout.c	48;"	d	file:
+ATTRIB	include/geekos/screen.h	24;"	d
+Add_Digit	src/geekos/screen.c	/^static void Add_Digit(int c)$/;"	f	file:
+Add_Page_Range	src/geekos/mem.c	/^static void Add_Page_Range(ulong_t start, ulong_t end, int flags)$/;"	f	file:
+After_Err	src/geekos/lowlevel.asm	/^After_Err:$/;"	l
+After_No_Err	src/geekos/lowlevel.asm	/^After_No_Err:$/;"	l
+Alloc_Page	src/geekos/mem.c	/^void* Alloc_Page(void)$/;"	f
+Alloc_Pageable_Page	src/geekos/mem.c	/^void* Alloc_Pageable_Page(pte_t *entry, ulong_t vaddr)$/;"	f
+Allocate_File	src/geekos/vfs.c	/^struct File *Allocate_File(struct File_Ops *ops, int filePos, int endPos, void *fsData,$/;"	f
+Allocate_Segment_Descriptor	src/geekos/gdt.c	/^struct Segment_Descriptor* Allocate_Segment_Descriptor(void)$/;"	f
+Argument_Block	include/geekos/argblock.h	/^struct Argument_Block {$/;"	s
+Attach_User_Context	src/geekos/user.c	/^void Attach_User_Context(struct Kernel_Thread* kthread, struct User_Context* context)$/;"	f
+BDH	src/geekos/bget.c	518;"	d	file:
+BFH	src/geekos/bget.c	526;"	d	file:
+BH	src/geekos/bget.c	510;"	d	file:
+BIOS_SIGNATURE_OFFSET	src/geekos/bootsect.asm	/^BIOS_SIGNATURE_OFFSET equ 510$/;"	d
+BIOS_SIGNATURE_OFFSET	src/geekos/defs.asm	/^BIOS_SIGNATURE_OFFSET equ 510$/;"	d
+BLACK	include/geekos/screen.h	15;"	d
+BLOCKDEV_MAX_NAME_LEN	include/geekos/fileio.h	30;"	d
+BLOCK_READ	include/geekos/blockdev.h	/^    BLOCK_READ, BLOCK_WRITE$/;"	e	enum:Request_Type
+BLOCK_WRITE	include/geekos/blockdev.h	/^    BLOCK_READ, BLOCK_WRITE$/;"	e	enum:Request_Type
+BLUE	include/geekos/screen.h	16;"	d
+BOOTSEG	src/geekos/defs.asm	/^BOOTSEG equ 0x07C0$/;"	d
+BRIGHT	include/geekos/screen.h	23;"	d
+BSS_END	include/geekos/defs.h	55;"	d
+BSS_END	include/geekos/defs.h	58;"	d
+BSS_START	include/geekos/defs.h	54;"	d
+BSS_START	include/geekos/defs.h	57;"	d
+BUFSIZE	src/user/shell.c	16;"	d	file:
+BUILDFAT	build/Makefile	/^BUILDFAT := tools\/builtFat.exe$/;"	m
+Before_Err	src/geekos/lowlevel.asm	/^Before_Err:$/;"	l
+Before_No_Err	src/geekos/lowlevel.asm	/^Before_No_Err:$/;"	l
+BeginText	src/geekos/bootsect.asm	/^BeginText:	; needed to calculate padding bytes to fill the sector$/;"	l
+BeginText	src/geekos/fd_boot.asm	/^BeginText:	; needed to calculate padding bytes to fill the sector$/;"	l
+Begin_IRQ	src/geekos/irq.c	/^void Begin_IRQ(struct Interrupt_State* state)$/;"	f
+Begin_Int_Atomic	include/geekos/int.h	/^static __inline__ bool Begin_Int_Atomic(void) $/;"	f
+BestFit	src/geekos/bget.c	443;"	d	file:
+Block_Device	include/geekos/blockdev.h	/^struct Block_Device {$/;"	s
+Block_Device_Ops	include/geekos/blockdev.h	/^struct Block_Device_Ops {$/;"	s
+Block_Read	src/geekos/blockdev.c	/^int Block_Read(struct Block_Device *dev, int blockNum, void *buf)$/;"	f
+Block_Request	include/geekos/blockdev.h	/^struct Block_Request {$/;"	s
+Block_Write	src/geekos/blockdev.c	/^int Block_Write(struct Block_Device *dev, int blockNum, void *buf)$/;"	f
+Boot_Info	include/geekos/bootinfo.h	/^struct Boot_Info {$/;"	s
+Build_Pipeline	src/user/shell.c	/^int Build_Pipeline(char *command, struct Process procList[])$/;"	f
+CALIBRATE_NUM_TICKS	src/geekos/timer.c	38;"	d	file:
+CC_GENERAL_OPTS	build/Makefile	/^CC_GENERAL_OPTS := $(GENERAL_OPTS) #-Werror $/;"	m
+CC_KERNEL_OPTS	build/Makefile	/^CC_KERNEL_OPTS := -g -DGEEKOS -I$(PROJECT_ROOT)\/include$/;"	m
+CC_USER_OPTS	build/Makefile	/^CC_USER_OPTS := -I$(PROJECT_ROOT)\/include -I$(PROJECT_ROOT)\/include\/libc \\$/;"	m
+CMDLEN	src/libc/process.c	28;"	d	file:
+CMOS_FLOPPY_INDEX	src/geekos/floppy.c	122;"	d	file:
+CMOS_IN	src/geekos/floppy.c	121;"	d	file:
+CMOS_OUT	src/geekos/floppy.c	120;"	d	file:
+COMMON_C_OBJS	build/Makefile	/^COMMON_C_OBJS := $(COMMON_C_SRCS:%.c=common\/%.o)$/;"	m
+COMMON_C_SRCS	build/Makefile	/^COMMON_C_SRCS := fmtout.c string.c memmove.c$/;"	m
+COMPLETED	include/geekos/blockdev.h	/^    PENDING, COMPLETED, ERROR$/;"	e	enum:Request_State
+CONIO_H	include/libc/conio.h	11;"	d
+CRT_ADDR_REG	include/geekos/screen.h	39;"	d
+CRT_CURSOR_LOC_HIGH_REG	include/geekos/screen.h	41;"	d
+CRT_CURSOR_LOC_LOW_REG	include/geekos/screen.h	42;"	d
+CRT_DATA_REG	include/geekos/screen.h	40;"	d
+CTRL_MASK	src/geekos/keyboard.c	52;"	d	file:
+CYAN	include/geekos/screen.h	18;"	d
+CYLINDERS	src/geekos/defs.asm	/^CYLINDERS equ 80$/;"	d
+Calibrate	src/geekos/floppy.c	/^static bool Calibrate(int drive)$/;"	f	file:
+Calibrate_Delay	src/geekos/timer.c	/^static void Calibrate_Delay(void)$/;"	f	file:
+Cancel_Timer	src/geekos/timer.c	/^int Cancel_Timer(int id)$/;"	f
+Check_Range_Proper	include/geekos/range.h	/^Check_Range_Proper(ulong_t start, ulong_t size)$/;"	f
+Check_Range_Under	include/geekos/range.h	/^Check_Range_Under(ulong_t start, ulong_t size, ulong_t max)$/;"	f
+Clear_Bit	src/geekos/bitset.c	/^void Clear_Bit(void *bitSet, uint_t bitPos)$/;"	f
+Clear_Screen	src/geekos/screen.c	/^void Clear_Screen(void)$/;"	f
+Clear_To_EOL	src/geekos/screen.c	/^static void Clear_To_EOL(void)$/;"	f	file:
+Close	include/geekos/blockdev.h	/^    int (*Close)(struct Block_Device *dev);$/;"	m	struct:Block_Device_Ops
+Close	include/geekos/vfs.h	/^    int (*Close)(struct File *file);$/;"	m	struct:File_Ops
+Close	src/geekos/vfs.c	/^int Close(struct File *file)$/;"	f
+Close_Block_Device	src/geekos/blockdev.c	/^int Close_Block_Device(struct Block_Device *dev)$/;"	f
+CompactTries	src/geekos/bget.c	1281;"	d	file:
+Cond_Broadcast	src/geekos/synch.c	/^void Cond_Broadcast(struct Condition* cond)$/;"	f
+Cond_Init	src/geekos/synch.c	/^void Cond_Init(struct Condition* cond)$/;"	f
+Cond_Signal	src/geekos/synch.c	/^void Cond_Signal(struct Condition* cond)$/;"	f
+Cond_Wait	src/geekos/synch.c	/^void Cond_Wait(struct Condition* cond, struct Mutex* mutex)$/;"	f
+Condition	include/geekos/synch.h	/^struct Condition {$/;"	s
+Console_State	src/geekos/screen.c	/^struct Console_State {$/;"	s	file:
+Copy_Stat	src/geekos/pfat.c	/^static void Copy_Stat(struct VFS_File_Stat *stat, directoryEntry *entry)$/;"	f	file:
+Copy_Token	src/user/shell.c	/^char *Copy_Token(char *token, char *s)$/;"	f
+Create_Bit_Set	src/geekos/bitset.c	/^void* Create_Bit_Set(uint_t totalBits)$/;"	f
+Create_Directory	include/geekos/vfs.h	/^    int (*Create_Directory)(struct Mount_Point *mountPoint, const char *path);$/;"	m	struct:Mount_Point_Ops
+Create_Directory	src/geekos/vfs.c	/^int Create_Directory(const char *path)$/;"	f
+Create_Request	src/geekos/blockdev.c	/^struct Block_Request *Create_Request(struct Block_Device *dev, enum Request_Type type,$/;"	f
+Create_Thread	src/geekos/kthread.c	/^static struct Kernel_Thread* Create_Thread(int priority, bool detached)$/;"	f	file:
+DEFAULT_ATTRIBUTE	src/geekos/screen.c	29;"	d	file:
+DEFAULT_MAX_TICKS	src/geekos/timer.c	44;"	d	file:
+DEFAULT_PATH	src/user/shell.c	17;"	d	file:
+DEFINE_LINK	include/geekos/list.h	28;"	d
+DEFINE_LIST	include/geekos/list.h	19;"	d
+DEF_SYSCALL	include/geekos/syscall.h	81;"	d
+DMA_ADDR_REG	src/geekos/dma.c	81;"	d	file:
+DMA_BASE	src/geekos/dma.c	65;"	d	file:
+DMA_CLEAR_FF_REG	src/geekos/dma.c	71;"	d	file:
+DMA_CLEAR_MASK_REG	src/geekos/dma.c	74;"	d	file:
+DMA_COMMAND_REG	src/geekos/dma.c	66;"	d	file:
+DMA_COUNT_REG	src/geekos/dma.c	82;"	d	file:
+DMA_Direction	include/geekos/dma.h	/^enum DMA_Direction {$/;"	g
+DMA_MASK_ALL_REG	src/geekos/dma.c	75;"	d	file:
+DMA_MASK_ENABLE	src/geekos/dma.c	87;"	d	file:
+DMA_MASK_ONE_REG	src/geekos/dma.c	69;"	d	file:
+DMA_MASTER_CLEAR_REG	src/geekos/dma.c	72;"	d	file:
+DMA_MAX_ADDR	src/geekos/dma.c	59;"	d	file:
+DMA_MODE_CASCADE	src/geekos/dma.c	93;"	d	file:
+DMA_MODE_READ	src/geekos/dma.c	94;"	d	file:
+DMA_MODE_REG	src/geekos/dma.c	70;"	d	file:
+DMA_MODE_SINGLE	src/geekos/dma.c	92;"	d	file:
+DMA_MODE_WRITE	src/geekos/dma.c	95;"	d	file:
+DMA_PAGE_REG	src/geekos/dma.c	106;"	d	file:
+DMA_READ	include/geekos/dma.h	/^    DMA_READ,$/;"	e	enum:DMA_Direction
+DMA_REQUEST_REG	src/geekos/dma.c	68;"	d	file:
+DMA_STATUS_REG	src/geekos/dma.c	67;"	d	file:
+DMA_TEMP_REG	src/geekos/dma.c	73;"	d	file:
+DMA_WRITE	include/geekos/dma.h	/^    DMA_WRITE$/;"	e	enum:DMA_Direction
+Debug	src/geekos/blockdev.c	21;"	d	file:
+Debug	src/geekos/blockdev.c	23;"	d	file:
+Debug	src/geekos/dma.c	112;"	d	file:
+Debug	src/geekos/dma.c	114;"	d	file:
+Debug	src/geekos/floppy.c	128;"	d	file:
+Debug	src/geekos/floppy.c	130;"	d	file:
+Debug	src/geekos/mem.c	45;"	d	file:
+Debug	src/geekos/paging.c	45;"	d	file:
+Debug	src/geekos/pfat.c	44;"	d	file:
+Debug	src/geekos/timer.c	59;"	d	file:
+Debug	src/geekos/timer.c	61;"	d	file:
+Debug	src/geekos/vfs.c	37;"	d	file:
+Delay	src/geekos/setup.asm	/^Delay:$/;"	l
+Delete	include/geekos/vfs.h	/^    int (*Delete)(struct Mount_Point *mountPoint, const char *path);$/;"	m	struct:Mount_Point_Ops
+Delete	src/geekos/vfs.c	/^int Delete(const char *path)$/;"	f
+Dequeue_Keycode	src/geekos/keyboard.c	/^static __inline__ Keycode Dequeue_Keycode(void)$/;"	f	file:
+Dequeue_Request	src/geekos/blockdev.c	/^struct Block_Request *Dequeue_Request(struct Block_Request_List *requestQueue,$/;"	f
+Destroy_Bit_Set	src/geekos/bitset.c	/^void Destroy_Bit_Set(void *bitSet)$/;"	f
+Destroy_Thread	src/geekos/kthread.c	/^static void Destroy_Thread(struct Kernel_Thread* kthread)$/;"	f	file:
+Detach_Thread	src/geekos/kthread.c	/^static void Detach_Thread(struct Kernel_Thread* kthread)$/;"	f	file:
+Detach_User_Context	src/geekos/user.c	/^void Detach_User_Context(struct Kernel_Thread* kthread)$/;"	f
+Disable_IRQ	src/geekos/irq.c	/^void Disable_IRQ(int irq)$/;"	f
+Disable_Interrupts	include/geekos/int.h	110;"	d
+Do_Open	src/geekos/vfs.c	/^static int Do_Open($/;"	f	file:
+Do_Open_Directory	src/geekos/vfs.c	/^static int Do_Open_Directory(struct Mount_Point *mountPoint, const char *path, int mode, struct File **pDir)$/;"	f	file:
+Do_Open_File	src/geekos/vfs.c	/^static int Do_Open_File(struct Mount_Point *mountPoint, const char *path, int mode, struct File **pFile)$/;"	f	file:
+Do_Request	src/geekos/blockdev.c	/^static int Do_Request(struct Block_Device *dev, enum Request_Type type, int blockNum, void *buf)$/;"	f	file:
+Dummy_Interrupt_Handler	src/geekos/int.c	/^static void Dummy_Interrupt_Handler(struct Interrupt_State* state)$/;"	f	file:
+DumpData	src/geekos/bget.c	478;"	d	file:
+Dump_All_Thread_List	src/geekos/kthread.c	/^void Dump_All_Thread_List(void)$/;"	f
+Dump_Interrupt_State	src/geekos/int.c	/^void Dump_Interrupt_State(struct Interrupt_State* state)$/;"	f
+EACCESS	include/geekos/errno.h	28;"	d
+EBUSY	include/geekos/errno.h	23;"	d
+EEXIST	include/geekos/errno.h	32;"	d
+EFLAGS_IF	include/geekos/int.h	85;"	d
+EINVALID	include/geekos/errno.h	29;"	d
+EINVALIDFS	include/geekos/errno.h	27;"	d
+EIO	include/geekos/errno.h	22;"	d
+EMFILE	include/geekos/errno.h	30;"	d
+EMIT	src/common/fmtout.c	81;"	d	file:
+ENAMETOOLONG	include/geekos/errno.h	26;"	d
+ENODEV	include/geekos/errno.h	21;"	d
+ENOEXEC	include/geekos/errno.h	35;"	d
+ENOFILESYS	include/geekos/errno.h	25;"	d
+ENOMEM	include/geekos/errno.h	24;"	d
+ENOSPACE	include/geekos/errno.h	33;"	d
+ENOTDIR	include/geekos/errno.h	31;"	d
+ENOTFOUND	include/geekos/errno.h	19;"	d
+EPIPE	include/geekos/errno.h	34;"	d
+ERROR	include/geekos/blockdev.h	/^    PENDING, COMPLETED, ERROR$/;"	e	enum:Request_State
+ESC	src/geekos/screen.c	28;"	d	file:
+ESent	src/geekos/bget.c	572;"	d	file:
+EUNSPECIFIED	include/geekos/errno.h	18;"	d
+EUNSUPPORTED	include/geekos/errno.h	20;"	d
+EXE_MAX_SEGMENTS	include/geekos/elf.h	75;"	d
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Enable_Paging$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Flush_TLB$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Get_Current_EFLAGS$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Get_PDBR$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Load_GDTR$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Load_IDTR$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Load_LDTR$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Set_PDBR$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT Switch_To_Thread$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT g_entryPointTableEnd$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT g_entryPointTableStart$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT g_handlerSizeErr$/;"	l
+EXPORT	src/geekos/lowlevel.asm	/^EXPORT g_handlerSizeNoErr$/;"	l
+EXTRA_CC_USER_OPTS	build/Makefile	/^EXTRA_CC_USER_OPTS := -Dmain=geekos_main$/;"	m
+EXTRA_C_OPTS	build/Makefile	/^EXTRA_C_OPTS       := -DNEED_UNDERSCORE -DGNU_WIN32$/;"	m
+EXTRA_NASM_OPTS	build/Makefile	/^EXTRA_NASM_OPTS    := -DNEED_UNDERSCORE$/;"	m
+Echo	src/libc/conio.c	/^void Echo(bool enable)$/;"	f
+Emit	include/libc/fmtout.h	/^    void (*Emit)(struct Output_Sink *o, int ch);$/;"	m	struct:Output_Sink
+Enable_A20	src/geekos/setup.asm	/^Enable_A20:$/;"	l
+Enable_IRQ	src/geekos/irq.c	/^void Enable_IRQ(int irq)$/;"	f
+Enable_Interrupts	include/geekos/int.h	123;"	d
+Enable_Paging	src/geekos/lowlevel.asm	/^Enable_Paging:$/;"	l
+End_IRQ	src/geekos/irq.c	/^void End_IRQ(struct Interrupt_State* state)$/;"	f
+End_Int_Atomic	include/geekos/int.h	/^static __inline__ void End_Int_Atomic(bool iflag)$/;"	f
+Ends_With	src/libc/process.c	/^static bool Ends_With(const char *name, const char *suffix)$/;"	f	file:
+Enqueue_Keycode	src/geekos/keyboard.c	/^static __inline__ void Enqueue_Keycode(Keycode keycode)$/;"	f	file:
+Enqueue_Thread	include/geekos/kthread.h	/^static __inline__ void Enqueue_Thread(struct Thread_Queue *queue, struct Kernel_Thread *kthread) {$/;"	f
+Exe_Format	include/geekos/elf.h	/^struct Exe_Format {$/;"	s
+Exe_Segment	include/geekos/elf.h	/^struct Exe_Segment {$/;"	s
+Exit	src/geekos/kthread.c	/^void Exit(int exitCode)$/;"	f
+ExpIncr	src/geekos/bget.c	1280;"	d	file:
+FAT_ENTRY_EOF	include/geekos/pfat.h	47;"	d
+FAT_ENTRY_FREE	include/geekos/pfat.h	46;"	d
+FDC_BASE	src/geekos/floppy.c	68;"	d	file:
+FDC_COMMAND_CALIBRATE	src/geekos/floppy.c	97;"	d	file:
+FDC_COMMAND_READ_SECTOR	src/geekos/floppy.c	101;"	d	file:
+FDC_COMMAND_SEEK	src/geekos/floppy.c	99;"	d	file:
+FDC_COMMAND_SENSE_INT_STATUS	src/geekos/floppy.c	98;"	d	file:
+FDC_COMMAND_WRITE_SECTOR	src/geekos/floppy.c	100;"	d	file:
+FDC_DATA_RATE_SELECT_REG	src/geekos/floppy.c	71;"	d	file:
+FDC_DATA_REG	src/geekos/floppy.c	72;"	d	file:
+FDC_DMA	src/geekos/floppy.c	63;"	d	file:
+FDC_DOR_DMA_ENABLE	src/geekos/floppy.c	90;"	d	file:
+FDC_DOR_DRIVE_SELECT	src/geekos/floppy.c	92;"	d	file:
+FDC_DOR_MOTOR	src/geekos/floppy.c	89;"	d	file:
+FDC_DOR_REG	src/geekos/floppy.c	69;"	d	file:
+FDC_DOR_RESET_DISABLE	src/geekos/floppy.c	91;"	d	file:
+FDC_IRQ	src/geekos/floppy.c	58;"	d	file:
+FDC_MFM	src/geekos/floppy.c	107;"	d	file:
+FDC_MULTI_TRACK	src/geekos/floppy.c	106;"	d	file:
+FDC_SKIP_DELETED	src/geekos/floppy.c	108;"	d	file:
+FDC_ST0_IS_SUCCESS	src/geekos/floppy.c	114;"	d	file:
+FDC_ST0_SEEK_END	src/geekos/floppy.c	113;"	d	file:
+FDC_STATUS_ACTIVE	src/geekos/floppy.c	81;"	d	file:
+FDC_STATUS_BUSY	src/geekos/floppy.c	80;"	d	file:
+FDC_STATUS_DIO	src/geekos/floppy.c	78;"	d	file:
+FDC_STATUS_MRQ	src/geekos/floppy.c	77;"	d	file:
+FDC_STATUS_NDMA	src/geekos/floppy.c	79;"	d	file:
+FDC_STATUS_READY_MASK	src/geekos/floppy.c	82;"	d	file:
+FDC_STATUS_READY_READ	src/geekos/floppy.c	84;"	d	file:
+FDC_STATUS_READY_WRITE	src/geekos/floppy.c	83;"	d	file:
+FDC_STATUS_REG	src/geekos/floppy.c	70;"	d	file:
+FILL_DWORD	src/geekos/screen.c	58;"	d	file:
+FIND_NUM_BYTES	src/geekos/bitset.c	23;"	d	file:
+FIND_OFFSET_AND_BIT	src/geekos/bitset.c	17;"	d	file:
+FIRST_EXCEPTION	include/geekos/idt.h	23;"	d
+FIRST_EXTERNAL_INT	include/geekos/idt.h	29;"	d
+FLOPPY_READ	src/geekos/floppy.c	/^enum { FLOPPY_READ, FLOPPY_WRITE };$/;"	e	enum:__anon11	file:
+FLOPPY_WRITE	src/geekos/floppy.c	/^enum { FLOPPY_READ, FLOPPY_WRITE };$/;"	e	enum:__anon11	file:
+FL_HASH	src/common/fmtout.c	/^  FL_HASH   = 0x20,		\/* # modifier *\/$/;"	e	enum:flags	file:
+FL_MINUS	src/common/fmtout.c	/^  FL_MINUS  = 0x02,		\/* Minus modifier *\/$/;"	e	enum:flags	file:
+FL_PLUS	src/common/fmtout.c	/^  FL_PLUS   = 0x04,		\/* Plus modifier *\/$/;"	e	enum:flags	file:
+FL_SIGNED	src/common/fmtout.c	/^  FL_SIGNED = 0x40,		\/* Number is signed *\/$/;"	e	enum:flags	file:
+FL_SPACE	src/common/fmtout.c	/^  FL_SPACE  = 0x10,		\/* Space modifier *\/$/;"	e	enum:flags	file:
+FL_TICK	src/common/fmtout.c	/^  FL_TICK   = 0x08,		\/* ' modifier *\/$/;"	e	enum:flags	file:
+FL_UPPER	src/common/fmtout.c	/^  FL_UPPER  = 0x80		\/* Upper case digits *\/$/;"	e	enum:flags	file:
+FL_ZERO	src/common/fmtout.c	/^  FL_ZERO   = 0x01,		\/* Zero modifier *\/$/;"	e	enum:flags	file:
+FStat	include/geekos/vfs.h	/^    int (*FStat)(struct File *file, struct VFS_File_Stat *stat);$/;"	m	struct:File_Ops
+FStat	src/geekos/vfs.c	/^int FStat(struct File *file, struct VFS_File_Stat *stat)$/;"	f
+File	include/geekos/vfs.h	/^struct File {$/;"	s
+File_Ops	include/geekos/vfs.h	/^struct File_Ops {$/;"	s
+Filesystem	src/geekos/vfs.c	/^struct Filesystem {$/;"	s	file:
+Filesystem_Ops	include/geekos/vfs.h	/^struct Filesystem_Ops {$/;"	s
+Find_Best	src/geekos/kthread.c	/^static __inline__ struct Kernel_Thread* Find_Best(struct Thread_Queue* queue)$/;"	f	file:
+Find_First_Free_Bit	src/geekos/bitset.c	/^int Find_First_Free_Bit(void *bitSet, ulong_t totalBits)$/;"	f
+Find_First_N_Free	src/geekos/bitset.c	/^int Find_First_N_Free(void *bitSet, uint_t runLength, ulong_t totalBits)$/;"	f
+Find_Page_To_Page_Out	src/geekos/mem.c	/^static struct Page *Find_Page_To_Page_Out()$/;"	f	file:
+Find_Space_On_Paging_File	src/geekos/paging.c	/^int Find_Space_On_Paging_File(void)$/;"	f
+Finish	include/libc/fmtout.h	/^    void (*Finish)(struct Output_Sink *o);$/;"	m	struct:Output_Sink
+Floppy_Close	src/geekos/floppy.c	/^static int Floppy_Close(struct Block_Device *dev)$/;"	f	file:
+Floppy_Drive	src/geekos/floppy.c	/^struct Floppy_Drive {$/;"	s	file:
+Floppy_Get_Num_Blocks	src/geekos/floppy.c	/^static int Floppy_Get_Num_Blocks(struct Block_Device *dev)$/;"	f	file:
+Floppy_In	src/geekos/floppy.c	/^static uchar_t Floppy_In(void)$/;"	f	file:
+Floppy_Interrupt_Handler	src/geekos/floppy.c	/^static void Floppy_Interrupt_Handler(struct Interrupt_State* state)$/;"	f	file:
+Floppy_Open	src/geekos/floppy.c	/^static int Floppy_Open(struct Block_Device *dev)$/;"	f	file:
+Floppy_Out	src/geekos/floppy.c	/^static void Floppy_Out(uchar_t val)$/;"	f	file:
+Floppy_Parameters	src/geekos/floppy.c	/^struct Floppy_Parameters {$/;"	s	file:
+Floppy_Read	src/geekos/floppy.c	/^static int Floppy_Read(int driveNum, int blockNum, char *buffer)$/;"	f	file:
+Floppy_Request_Thread	src/geekos/floppy.c	/^static void Floppy_Request_Thread(ulong_t arg)$/;"	f	file:
+Floppy_Seek	src/geekos/floppy.c	/^static bool Floppy_Seek(int drive, int cylinder, int head)$/;"	f	file:
+Floppy_Transfer	src/geekos/floppy.c	/^static int Floppy_Transfer(int direction, int driveNum, int blockNum, char *buf)$/;"	f	file:
+Floppy_Write	src/geekos/floppy.c	/^static int Floppy_Write(int driveNum, int blockNum, char *buffer)$/;"	f	file:
+Flush_TLB	src/geekos/lowlevel.asm	/^Flush_TLB:$/;"	l
+Format	include/geekos/vfs.h	/^    int (*Format)(struct Block_Device *blockDev);$/;"	m	struct:Filesystem_Ops
+Format	src/geekos/vfs.c	/^int Format(const char *devname, const char *fstype)$/;"	f
+Format_Argument_Block	src/geekos/argblock.c	/^void Format_Argument_Block(char *argBlock, unsigned numArgs, ulong_t userAddress,$/;"	f
+Format_Output	src/common/fmtout.c	/^int Format_Output(struct Output_Sink *q, const char *format, va_list ap)$/;"	f
+Free	src/geekos/malloc.c	/^void Free(void* buf)$/;"	f
+Free_Page	src/geekos/mem.c	/^void Free_Page(void* pageAddr)$/;"	f
+Free_Segment_Descriptor	src/geekos/gdt.c	/^void Free_Segment_Descriptor(struct Segment_Descriptor* desc)$/;"	f
+Free_Space_On_Paging_File	src/geekos/paging.c	/^void Free_Space_On_Paging_File(int pagefileIndex)$/;"	f
+GDT	src/geekos/setup.asm	/^GDT:$/;"	l
+GDT_ENTRY_SZ	src/geekos/setup.asm	/^GDT_ENTRY_SZ equ 8		; size of a single GDT entry$/;"	d
+GDT_Pointer	src/geekos/setup.asm	/^GDT_Pointer:$/;"	l
+GEEKOS_ARGBLOCK_H	include/geekos/argblock.h	11;"	d
+GEEKOS_BITSET_H	include/geekos/bitset.h	12;"	d
+GEEKOS_BLOCKDEV_H	include/geekos/blockdev.h	12;"	d
+GEEKOS_BOOTINFO_H	include/geekos/bootinfo.h	11;"	d
+GEEKOS_CRC32_H	include/geekos/crc32.h	2;"	d
+GEEKOS_DEFS_H	include/geekos/defs.h	11;"	d
+GEEKOS_DMA_H	include/geekos/dma.h	11;"	d
+GEEKOS_ELF_H	include/geekos/elf.h	12;"	d
+GEEKOS_ERRNO_H	include/geekos/errno.h	11;"	d
+GEEKOS_FILEIO_H	include/geekos/fileio.h	12;"	d
+GEEKOS_FLOPPY_H	include/geekos/floppy.h	11;"	d
+GEEKOS_GDT_H	include/geekos/gdt.h	11;"	d
+GEEKOS_IDE_H	include/geekos/ide.h	11;"	d
+GEEKOS_IDT_H	include/geekos/idt.h	11;"	d
+GEEKOS_INT_H	include/geekos/int.h	17;"	d
+GEEKOS_IO_H	include/geekos/io.h	11;"	d
+GEEKOS_IRQ_H	include/geekos/irq.h	11;"	d
+GEEKOS_KASSERT_H	include/geekos/kassert.h	11;"	d
+GEEKOS_KEYBOARD_H	include/geekos/keyboard.h	11;"	d
+GEEKOS_KTHREAD_H	include/geekos/kthread.h	11;"	d
+GEEKOS_KTYPES_H	include/geekos/ktypes.h	11;"	d
+GEEKOS_LIST_H	include/geekos/list.h	11;"	d
+GEEKOS_MALLOC_H	include/geekos/malloc.h	11;"	d
+GEEKOS_MEM_H	include/geekos/mem.h	12;"	d
+GEEKOS_PAGING_H	include/geekos/paging.h	12;"	d
+GEEKOS_PFAT_H	include/geekos/pfat.h	12;"	d
+GEEKOS_RANGE_H	include/geekos/range.h	11;"	d
+GEEKOS_SCREEN_H	include/geekos/screen.h	11;"	d
+GEEKOS_SEGMENT_H	include/geekos/segment.h	16;"	d
+GEEKOS_SYMBOL_H	include/geekos/symbol.h	12;"	d
+GEEKOS_SYNCH_H	include/geekos/synch.h	11;"	d
+GEEKOS_SYSCALL_H	include/geekos/syscall.h	11;"	d
+GEEKOS_TIMER_H	include/geekos/timer.h	11;"	d
+GEEKOS_TRAP_H	include/geekos/trap.h	11;"	d
+GEEKOS_TSS_H	include/geekos/tss.h	11;"	d
+GEEKOS_USER_H	include/geekos/user.h	12;"	d
+GEEKOS_VFS_H	include/geekos/vfs.h	12;"	d
+GENERAL_OPTS	build/Makefile	/^GENERAL_OPTS := -O -Wall $(EXTRA_C_OPTS) -fno-stack-protector$/;"	m
+GENERATED_LIBC_SRCS	build/Makefile	/^GENERATED_LIBC_SRCS := libc\/errno.c$/;"	m
+GENERRS	build/Makefile	/^GENERRS := $(PERL) $(PROJECT_ROOT)\/scripts\/generrs$/;"	m
+GPF_Handler	src/geekos/trap.c	/^static void GPF_Handler(struct Interrupt_State* state)$/;"	f	file:
+GRAY	include/geekos/screen.h	22;"	d
+GREEN	include/geekos/screen.h	17;"	d
+GetParam	src/geekos/bootsect.asm	/^GetParam:$/;"	l
+Get_Arg	src/geekos/screen.c	/^static int Get_Arg(int argNum)$/;"	f	file:
+Get_Argument_Block_Size	src/geekos/argblock.c	/^void Get_Argument_Block_Size(const char *command, unsigned *numArgs, ulong_t *argBlockSize)$/;"	f
+Get_Argument_Len	src/geekos/argblock.c	/^static unsigned Get_Argument_Len(const char *arg)$/;"	f	file:
+Get_Current	src/geekos/kthread.c	/^struct Kernel_Thread* Get_Current(void)$/;"	f
+Get_Current_Attr	src/geekos/screen.c	/^uchar_t Get_Current_Attr(void)$/;"	f
+Get_Current_EFLAGS	src/geekos/lowlevel.asm	/^Get_Current_EFLAGS:$/;"	l
+Get_Cursor	src/geekos/screen.c	/^void Get_Cursor(int* row, int* col)$/;"	f
+Get_Descriptor_Index	src/geekos/gdt.c	/^int Get_Descriptor_Index(struct Segment_Descriptor* desc)$/;"	f
+Get_Error_String	src/libc/conio.c	/^const char *Get_Error_String(int errno)$/;"	f
+Get_IRQ_Mask	src/geekos/irq.c	/^ushort_t Get_IRQ_Mask(void)$/;"	f
+Get_Next_Runnable	src/geekos/kthread.c	/^struct Kernel_Thread* Get_Next_Runnable(void)$/;"	f
+Get_Num_Blocks	include/geekos/blockdev.h	/^    int (*Get_Num_Blocks)(struct Block_Device *dev);$/;"	m	struct:Block_Device_Ops
+Get_Num_Blocks	src/geekos/blockdev.c	/^int Get_Num_Blocks(struct Block_Device *dev)$/;"	f
+Get_PDBR	src/geekos/lowlevel.asm	/^Get_PDBR:$/;"	l
+Get_PFAT_File	src/geekos/pfat.c	/^static struct PFAT_File *Get_PFAT_File(struct PFAT_Instance *instance, directoryEntry *entry)$/;"	f	file:
+Get_Page	include/geekos/mem.h	/^static __inline__ struct Page *Get_Page(ulong_t addr)$/;"	f
+Get_Page_Address	include/geekos/mem.h	/^static __inline__ ulong_t Get_Page_Address(struct Page *page)$/;"	f
+Get_Page_Fault_Address	include/geekos/paging.h	/^static __inline__ ulong_t Get_Page_Fault_Address(void)$/;"	f
+Get_Paging_Device	src/geekos/vfs.c	/^struct Paging_Device *Get_Paging_Device(void)$/;"	f
+Get_Remaing_Timer_Ticks	src/geekos/timer.c	/^int Get_Remaing_Timer_Ticks(int id)$/;"	f
+Get_Tlocal_Pointer	src/geekos/kthread.c	/^static __inline__ const void** Get_Tlocal_Pointer(tlocal_key_t k) $/;"	f	file:
+HEADS	src/geekos/defs.asm	/^HEADS equ 2$/;"	d
+HIGHMEM_START	include/geekos/mem.h	43;"	d
+HIGH_BYTE	src/geekos/ide.c	90;"	d	file:
+HOST_CC	build/Makefile	/^HOST_CC := gcc$/;"	m
+Handle_Interrupt	src/geekos/lowlevel.asm	/^Handle_Interrupt:$/;"	l
+ICW1	src/geekos/defs.asm	/^ICW1 equ 0x11		; ICW1 - ICW4 needed, cascade mode, interval=8,$/;"	d
+ICW2_MASTER	src/geekos/defs.asm	/^ICW2_MASTER equ 0x20	; put IRQs 0-7 at 0x20 (above Intel reserved ints)$/;"	d
+ICW2_SLAVE	src/geekos/defs.asm	/^ICW2_SLAVE equ 0x28	; put IRQs 8-15 at 0x28$/;"	d
+ICW3_MASTER	src/geekos/defs.asm	/^ICW3_MASTER equ 0x04	; IR2 connected to slave$/;"	d
+ICW3_SLAVE	src/geekos/defs.asm	/^ICW3_SLAVE equ 0x02	; slave has id 2$/;"	d
+ICW4	src/geekos/defs.asm	/^ICW4 equ 0x01		; 8086 mode, no auto-EOI, non-buffered mode,$/;"	d
+IDE_COMMAND_ATAPI_IDENT_DRIVE	src/geekos/ide.c	55;"	d	file:
+IDE_COMMAND_DIAGNOSTIC	src/geekos/ide.c	54;"	d	file:
+IDE_COMMAND_IDENTIFY_DRIVE	src/geekos/ide.c	48;"	d	file:
+IDE_COMMAND_READ_BUFFER	src/geekos/ide.c	51;"	d	file:
+IDE_COMMAND_READ_SECTORS	src/geekos/ide.c	50;"	d	file:
+IDE_COMMAND_REGISTER	src/geekos/ide.c	40;"	d	file:
+IDE_COMMAND_SEEK	src/geekos/ide.c	49;"	d	file:
+IDE_COMMAND_WRITE_BUFFER	src/geekos/ide.c	53;"	d	file:
+IDE_COMMAND_WRITE_SECTORS	src/geekos/ide.c	52;"	d	file:
+IDE_CONTROL_INT_DISABLE	src/geekos/ide.c	87;"	d	file:
+IDE_CONTROL_REGISTER	src/geekos/ide.c	85;"	d	file:
+IDE_CONTROL_SOFTWARE_RESET	src/geekos/ide.c	86;"	d	file:
+IDE_CYLINDER_HIGH_REGISTER	src/geekos/ide.c	37;"	d	file:
+IDE_CYLINDER_LOW_REGISTER	src/geekos/ide.c	36;"	d	file:
+IDE_Close	src/geekos/ide.c	/^static int IDE_Close(struct Block_Device *dev)$/;"	f	file:
+IDE_DATA_REGISTER	src/geekos/ide.c	31;"	d	file:
+IDE_DCR_NOINTERRUPT	src/geekos/ide.c	75;"	d	file:
+IDE_DCR_RESET	src/geekos/ide.c	76;"	d	file:
+IDE_DEVICE_CONTROL_REGISTER	src/geekos/ide.c	41;"	d	file:
+IDE_DRIVE_0	src/geekos/ide.c	44;"	d	file:
+IDE_DRIVE_1	src/geekos/ide.c	45;"	d	file:
+IDE_DRIVE_HEAD_REGISTER	src/geekos/ide.c	38;"	d	file:
+IDE_ERROR_BAD_DRIVE	src/geekos/ide.c	80;"	d	file:
+IDE_ERROR_DRIVE_ERROR	src/geekos/ide.c	82;"	d	file:
+IDE_ERROR_INVALID_BLOCK	src/geekos/ide.c	81;"	d	file:
+IDE_ERROR_NO_ERROR	src/geekos/ide.c	79;"	d	file:
+IDE_ERROR_REGISTER	src/geekos/ide.c	32;"	d	file:
+IDE_FEATURE_REG	src/geekos/ide.c	33;"	d	file:
+IDE_Get_Num_Blocks	src/geekos/ide.c	/^static int IDE_Get_Num_Blocks(struct Block_Device *dev)$/;"	f	file:
+IDE_INDENTIFY_NUM_BYTES_SECTOR	src/geekos/ide.c	61;"	d	file:
+IDE_INDENTIFY_NUM_BYTES_TRACK	src/geekos/ide.c	60;"	d	file:
+IDE_INDENTIFY_NUM_CYLINDERS	src/geekos/ide.c	58;"	d	file:
+IDE_INDENTIFY_NUM_HEADS	src/geekos/ide.c	59;"	d	file:
+IDE_INDENTIFY_NUM_SECTORS_TRACK	src/geekos/ide.c	62;"	d	file:
+IDE_MAX_DRIVES	src/geekos/ide.c	92;"	d	file:
+IDE_Open	src/geekos/ide.c	/^static int IDE_Open(struct Block_Device *dev)$/;"	f	file:
+IDE_Read	src/geekos/ide.c	/^static int IDE_Read(int driveNum, int blockNum, char *buffer)$/;"	f	file:
+IDE_Request_Thread	src/geekos/ide.c	/^static void IDE_Request_Thread(ulong_t arg)$/;"	f	file:
+IDE_SECTOR_COUNT_REGISTER	src/geekos/ide.c	34;"	d	file:
+IDE_SECTOR_NUMBER_REGISTER	src/geekos/ide.c	35;"	d	file:
+IDE_STATUS_DRIVE_BUSY	src/geekos/ide.c	65;"	d	file:
+IDE_STATUS_DRIVE_CORRECTED_DATA	src/geekos/ide.c	70;"	d	file:
+IDE_STATUS_DRIVE_DATA_REQUEST	src/geekos/ide.c	69;"	d	file:
+IDE_STATUS_DRIVE_ERROR	src/geekos/ide.c	72;"	d	file:
+IDE_STATUS_DRIVE_INDEX	src/geekos/ide.c	71;"	d	file:
+IDE_STATUS_DRIVE_READY	src/geekos/ide.c	66;"	d	file:
+IDE_STATUS_DRIVE_SEEK_COMPLETE	src/geekos/ide.c	68;"	d	file:
+IDE_STATUS_DRIVE_WRITE_FAULT	src/geekos/ide.c	67;"	d	file:
+IDE_STATUS_REGISTER	src/geekos/ide.c	39;"	d	file:
+IDE_Write	src/geekos/ide.c	/^static int IDE_Write(int driveNum, int blockNum, char *buffer)$/;"	f	file:
+IDE_getNumBlocks	src/geekos/ide.c	/^static int IDE_getNumBlocks(int driveNum)$/;"	f	file:
+IDT_Descriptor	include/geekos/idt.h	/^union IDT_Descriptor {$/;"	u
+IDT_Pointer	src/geekos/setup.asm	/^IDT_Pointer:$/;"	l
+IMPLEMENT_LIST	include/geekos/list.h	34;"	d
+IMPORT	src/geekos/lowlevel.asm	/^IMPORT Get_Next_Runnable$/;"	l
+IMPORT	src/geekos/lowlevel.asm	/^IMPORT Make_Runnable$/;"	l
+IMPORT	src/geekos/lowlevel.asm	/^IMPORT Switch_To_User_Context$/;"	l
+IMPORT	src/geekos/lowlevel.asm	/^IMPORT g_currentThread$/;"	l
+IMPORT	src/geekos/lowlevel.asm	/^IMPORT g_interruptTable$/;"	l
+IMPORT	src/geekos/lowlevel.asm	/^IMPORT g_needReschedule$/;"	l
+IMPORT	src/geekos/lowlevel.asm	/^IMPORT g_preemptionDisabled$/;"	l
+INFILE	src/user/shell.c	19;"	d	file:
+INITSEG	src/geekos/defs.asm	/^INITSEG equ 0x9000$/;"	d
+INIT_PROGRAM	src/geekos/main.c	47;"	d	file:
+INTERRUPT_STATE_SIZE	src/geekos/lowlevel.asm	/^INTERRUPT_STATE_SIZE equ 64$/;"	d
+INTMAX_RANK	src/common/fmtout.c	76;"	d	file:
+INVALID_FLOPPY_TYPE	src/geekos/floppy.c	147;"	d	file:
+IO_Delay	src/geekos/io.c	/^void IO_Delay(void)$/;"	f
+ISA_HOLE_END	include/geekos/mem.h	37;"	d
+ISA_HOLE_START	include/geekos/mem.h	36;"	d
+ISDIGIT	include/geekos/ktypes.h	38;"	d
+ISSPACE	src/user/shell.c	23;"	d	file:
+IS_HELD	include/geekos/synch.h	41;"	d
+IS_RESERVED	src/geekos/dma.c	108;"	d	file:
+IS_VALID_FLOPPY_TYPE	src/geekos/floppy.c	162;"	d	file:
+Idle	src/geekos/kthread.c	/^static void Idle(ulong_t arg)$/;"	f	file:
+In_Byte	src/geekos/io.c	/^uchar_t In_Byte(ushort_t port)$/;"	f
+In_Word	src/geekos/io.c	/^ushort_t In_Word(ushort_t port)$/;"	f
+Init_BSS	src/geekos/mem.c	/^void Init_BSS(void)$/;"	f
+Init_CRC32	src/geekos/crc32.c	/^void Init_CRC32(void) {$/;"	f
+Init_Code_Segment_Descriptor	src/geekos/segment.c	/^void Init_Code_Segment_Descriptor($/;"	f
+Init_DMA	src/geekos/dma.c	/^void Init_DMA(void)$/;"	f
+Init_Data_Segment_Descriptor	src/geekos/segment.c	/^void Init_Data_Segment_Descriptor($/;"	f
+Init_Floppy	src/geekos/floppy.c	/^void Init_Floppy(void)$/;"	f
+Init_GDT	src/geekos/gdt.c	/^void Init_GDT(void)$/;"	f
+Init_Heap	src/geekos/malloc.c	/^void Init_Heap(ulong_t start, ulong_t size)$/;"	f
+Init_IDE	src/geekos/ide.c	/^void Init_IDE(void)$/;"	f
+Init_IDT	src/geekos/idt.c	/^void Init_IDT(void)$/;"	f
+Init_Interrupt_Gate	src/geekos/idt.c	/^void Init_Interrupt_Gate(union IDT_Descriptor* desc, ulong_t addr,$/;"	f
+Init_Interrupts	src/geekos/int.c	/^void Init_Interrupts(void)$/;"	f
+Init_Keyboard	src/geekos/keyboard.c	/^void Init_Keyboard(void)$/;"	f
+Init_LDT_Descriptor	src/geekos/segment.c	/^void Init_LDT_Descriptor($/;"	f
+Init_Mem	src/geekos/mem.c	/^void Init_Mem(struct Boot_Info* bootInfo)$/;"	f
+Init_Null_Segment_Descriptor	src/geekos/segment.c	/^void Init_Null_Segment_Descriptor(struct Segment_Descriptor* desc)$/;"	f
+Init_PFAT	src/geekos/pfat.c	/^void Init_PFAT(void)$/;"	f
+Init_PIC	src/geekos/setup.asm	/^Init_PIC:$/;"	l
+Init_Paging	src/geekos/paging.c	/^void Init_Paging(void)$/;"	f
+Init_Scheduler	src/geekos/kthread.c	/^void Init_Scheduler(void)$/;"	f
+Init_Screen	src/geekos/screen.c	/^void Init_Screen(void)$/;"	f
+Init_TSS	src/geekos/tss.c	/^void Init_TSS(void)$/;"	f
+Init_TSS_Descriptor	src/geekos/segment.c	/^void Init_TSS_Descriptor(struct Segment_Descriptor* desc, struct TSS* theTSS)$/;"	f
+Init_Thread	src/geekos/kthread.c	/^static void Init_Thread(struct Kernel_Thread* kthread, void* stackPage,$/;"	f	file:
+Init_Timer	src/geekos/timer.c	/^void Init_Timer(void)$/;"	f
+Init_Traps	src/geekos/trap.c	/^void Init_Traps(void)$/;"	f
+Init_VM	src/geekos/paging.c	/^void Init_VM(struct Boot_Info *bootInfo)$/;"	f
+Install_IRQ	src/geekos/irq.c	/^void Install_IRQ(int irq, Interrupt_Handler handler)$/;"	f
+Install_Interrupt_Handler	src/geekos/idt.c	/^void Install_Interrupt_Handler(int interrupt, Interrupt_Handler handler)$/;"	f
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 0$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 1$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 15	; FIXME: not described in 486 manual$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 16$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 2	; FIXME: not described in 486 manual$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 3$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 4$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 5$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 6$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 7$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err 9	; FIXME: not described in 486 manual$/;"	l
+Int_No_Err	src/geekos/lowlevel.asm	/^Int_No_Err intNum$/;"	l
+Int_With_Err	src/geekos/lowlevel.asm	/^Int_With_Err 10$/;"	l
+Int_With_Err	src/geekos/lowlevel.asm	/^Int_With_Err 11$/;"	l
+Int_With_Err	src/geekos/lowlevel.asm	/^Int_With_Err 12$/;"	l
+Int_With_Err	src/geekos/lowlevel.asm	/^Int_With_Err 13$/;"	l
+Int_With_Err	src/geekos/lowlevel.asm	/^Int_With_Err 14$/;"	l
+Int_With_Err	src/geekos/lowlevel.asm	/^Int_With_Err 17$/;"	l
+Int_With_Err	src/geekos/lowlevel.asm	/^Int_With_Err 8$/;"	l
+Interrupt_Gate	include/geekos/idt.h	/^struct Interrupt_Gate {$/;"	s
+Interrupt_Handler	include/geekos/int.h	/^typedef void (*Interrupt_Handler)(struct Interrupt_State* state);$/;"	t
+Interrupt_State	include/geekos/int.h	/^struct Interrupt_State {$/;"	s
+Interrupts_Enabled	src/geekos/int.c	/^bool Interrupts_Enabled(void)$/;"	f
+Is_Bit_Set	src/geekos/bitset.c	/^bool Is_Bit_Set(void *bitSet, uint_t bitPos)$/;"	f
+Is_Page_Multiple	include/geekos/mem.h	/^static __inline__ bool Is_Page_Multiple(ulong_t addr)$/;"	f
+Is_Queue_Empty	src/geekos/keyboard.c	/^static __inline__ bool Is_Queue_Empty(void)$/;"	f	file:
+Is_Queue_Full	src/geekos/keyboard.c	/^static __inline__ bool Is_Queue_Full(void)$/;"	f	file:
+Is_Space	src/geekos/argblock.c	/^static bool Is_Space(int c)$/;"	f	file:
+Is_User_Interrupt	include/geekos/int.h	/^static __inline__ bool Is_User_Interrupt(struct Interrupt_State *state)$/;"	f
+Join	src/geekos/kthread.c	/^int Join(struct Kernel_Thread* kthread)$/;"	f
+KASSERT	include/geekos/kassert.h	20;"	d
+KASSERT	include/geekos/kassert.h	58;"	d
+KB_CMD	include/geekos/keyboard.h	26;"	d
+KB_DATA	include/geekos/keyboard.h	27;"	d
+KB_IRQ	include/geekos/keyboard.h	21;"	d
+KB_KEY_RELEASE	include/geekos/keyboard.h	37;"	d
+KB_OUTPUT_FULL	include/geekos/keyboard.h	32;"	d
+KERNEL_ASM_OBJS	build/Makefile	/^KERNEL_ASM_OBJS := \\$/;"	m
+KERNEL_ASM_SRCS	build/Makefile	/^KERNEL_ASM_SRCS := lowlevel.asm$/;"	m
+KERNEL_BASE_ADDR	build/Makefile	/^KERNEL_BASE_ADDR := 0x00010000$/;"	m
+KERNEL_CS	include/geekos/defs.h	17;"	d
+KERNEL_CS	src/geekos/defs.asm	/^KERNEL_CS equ 1<<3	; kernel code segment is GDT entry 1$/;"	d
+KERNEL_C_OBJS	build/Makefile	/^KERNEL_C_OBJS := $(KERNEL_C_SRCS:%.c=geekos\/%.o)$/;"	m
+KERNEL_C_SRCS	build/Makefile	/^KERNEL_C_SRCS := idt.c int.c trap.c irq.c io.c \\$/;"	m
+KERNEL_DS	include/geekos/defs.h	18;"	d
+KERNEL_DS	src/geekos/defs.asm	/^KERNEL_DS equ 2<<3	; kernel data segment is GDT entry 2$/;"	d
+KERNEL_ENTRY	build/Makefile	/^KERNEL_ENTRY = $(SYM_PFX)Main$/;"	m
+KERNEL_HEAP_SIZE	include/geekos/mem.h	48;"	d
+KERNEL_OBJS	build/Makefile	/^KERNEL_OBJS := $(KERNEL_C_OBJS) \\$/;"	m
+KERNEL_PRIVILEGE	include/geekos/defs.h	35;"	d
+KERNEL_START_ADDR	include/geekos/defs.h	30;"	d
+KERNSEG	src/geekos/defs.asm	/^KERNSEG equ 0x1000$/;"	d
+KERN_STACK	include/geekos/defs.h	25;"	d
+KERN_STACK	src/geekos/defs.asm	/^KERN_STACK equ KERN_THREAD_OBJ + 4096$/;"	d
+KERN_THREAD_OBJ	include/geekos/defs.h	24;"	d
+KERN_THREAD_OBJ	src/geekos/defs.asm	/^KERN_THREAD_OBJ equ (1024*1024)$/;"	d
+KEYPAD_START	include/geekos/keyboard.h	98;"	d
+KEY_ALT_FLAG	include/geekos/keyboard.h	62;"	d
+KEY_CAPSLOCK	include/geekos/keyboard.h	90;"	d
+KEY_CTRL_FLAG	include/geekos/keyboard.h	63;"	d
+KEY_F1	include/geekos/keyboard.h	71;"	d
+KEY_F10	include/geekos/keyboard.h	80;"	d
+KEY_F11	include/geekos/keyboard.h	81;"	d
+KEY_F12	include/geekos/keyboard.h	82;"	d
+KEY_F2	include/geekos/keyboard.h	72;"	d
+KEY_F3	include/geekos/keyboard.h	73;"	d
+KEY_F4	include/geekos/keyboard.h	74;"	d
+KEY_F5	include/geekos/keyboard.h	75;"	d
+KEY_F6	include/geekos/keyboard.h	76;"	d
+KEY_F7	include/geekos/keyboard.h	77;"	d
+KEY_F8	include/geekos/keyboard.h	78;"	d
+KEY_F9	include/geekos/keyboard.h	79;"	d
+KEY_KEYPAD_FLAG	include/geekos/keyboard.h	60;"	d
+KEY_KPCENTER	include/geekos/keyboard.h	105;"	d
+KEY_KPDEL	include/geekos/keyboard.h	112;"	d
+KEY_KPDOWN	include/geekos/keyboard.h	109;"	d
+KEY_KPEND	include/geekos/keyboard.h	108;"	d
+KEY_KPHOME	include/geekos/keyboard.h	100;"	d
+KEY_KPINSERT	include/geekos/keyboard.h	111;"	d
+KEY_KPLEFT	include/geekos/keyboard.h	104;"	d
+KEY_KPMINUS	include/geekos/keyboard.h	103;"	d
+KEY_KPPGDN	include/geekos/keyboard.h	110;"	d
+KEY_KPPGUP	include/geekos/keyboard.h	102;"	d
+KEY_KPPLUS	include/geekos/keyboard.h	107;"	d
+KEY_KPRIGHT	include/geekos/keyboard.h	106;"	d
+KEY_KPUP	include/geekos/keyboard.h	101;"	d
+KEY_LALT	include/geekos/keyboard.h	87;"	d
+KEY_LCTRL	include/geekos/keyboard.h	83;"	d
+KEY_LSHIFT	include/geekos/keyboard.h	85;"	d
+KEY_NUMLOCK	include/geekos/keyboard.h	91;"	d
+KEY_PRINTSCRN	include/geekos/keyboard.h	89;"	d
+KEY_RALT	include/geekos/keyboard.h	88;"	d
+KEY_RCTRL	include/geekos/keyboard.h	84;"	d
+KEY_RELEASE_FLAG	include/geekos/keyboard.h	64;"	d
+KEY_RSHIFT	include/geekos/keyboard.h	86;"	d
+KEY_SCRLOCK	include/geekos/keyboard.h	92;"	d
+KEY_SHIFT_FLAG	include/geekos/keyboard.h	61;"	d
+KEY_SPECIAL_FLAG	include/geekos/keyboard.h	59;"	d
+KEY_SYSREQ	include/geekos/keyboard.h	93;"	d
+KEY_UNKNOWN	include/geekos/keyboard.h	70;"	d
+KINFO_PAGE_ON_DISK	include/geekos/paging.h	90;"	d
+Kernel_Thread	include/geekos/kthread.h	/^struct Kernel_Thread {$/;"	s
+Keyboard_Interrupt_Handler	src/geekos/keyboard.c	/^static void Keyboard_Interrupt_Handler(struct Interrupt_State* state)$/;"	f	file:
+Keycode	include/geekos/keyboard.h	/^typedef ushort_t Keycode;$/;"	t
+Keycode	src/libc/libuser.h	/^typedef unsigned short Keycode;$/;"	t
+Kill_Motor	src/geekos/setup.asm	/^Kill_Motor:$/;"	l
+LBA_To_CHS	src/geekos/floppy.c	/^static void LBA_To_CHS(struct Floppy_Drive* drive, int lba, int *cylinder, int *head, int *sector)$/;"	f	file:
+LEFT_ALT	src/geekos/keyboard.c	49;"	d	file:
+LEFT_CTRL	src/geekos/keyboard.c	47;"	d	file:
+LEFT_SHIFT	src/geekos/keyboard.c	45;"	d	file:
+LIBC_C_OBJS	build/Makefile	/^LIBC_C_OBJS := $(LIBC_C_SRCS:%.c=libc\/%.o)$/;"	m
+LIBC_C_SRCS	build/Makefile	/^LIBC_C_SRCS := \\$/;"	m
+LOW_BYTE	src/geekos/ide.c	89;"	d	file:
+Launch_Thread	src/geekos/kthread.c	/^static void Launch_Thread(void)$/;"	f	file:
+Load_GDTR	src/geekos/lowlevel.asm	/^Load_GDTR:$/;"	l
+Load_IDTR	src/geekos/lowlevel.asm	/^Load_IDTR:$/;"	l
+Load_LDTR	src/geekos/lowlevel.asm	/^Load_LDTR:$/;"	l
+Load_Task_Register	src/geekos/tss.c	/^static void __inline__ Load_Task_Register(void)$/;"	f	file:
+Lookup_Filesystem	src/geekos/vfs.c	/^static struct Filesystem *Lookup_Filesystem(const char *fstype)$/;"	f	file:
+Lookup_Mount_Point	src/geekos/vfs.c	/^static struct Mount_Point *Lookup_Mount_Point(const char *prefix)$/;"	f	file:
+Lookup_Thread	src/geekos/kthread.c	/^struct Kernel_Thread* Lookup_Thread(int pid)$/;"	f
+MAGENTA	include/geekos/screen.h	20;"	d
+MASTER	src/geekos/irq.c	29;"	d	file:
+MAX	include/geekos/ktypes.h	33;"	d
+MAXARGS	src/geekos/screen.c	39;"	d	file:
+MAXPROC	src/user/shell.c	43;"	d	file:
+MAX_PREFIX_LEN	src/geekos/vfs.c	63;"	d	file:
+MAX_QUEUE_LEVEL	include/geekos/kthread.h	102;"	d
+MAX_RANK	src/common/fmtout.c	74;"	d	file:
+MAX_TIMER_EVENTS	src/geekos/timer.c	18;"	d	file:
+MAX_TLOCAL_KEYS	include/geekos/kthread.h	60;"	d
+MIN	include/geekos/ktypes.h	32;"	d
+MIN_DESTRUCTOR_ITERATIONS	include/geekos/kthread.h	155;"	d
+MIN_RANK	src/common/fmtout.c	73;"	d	file:
+MUTEX_INITIALIZER	include/geekos/synch.h	26;"	d
+MUTEX_LOCKED	include/geekos/synch.h	/^enum { MUTEX_UNLOCKED, MUTEX_LOCKED };$/;"	e	enum:__anon5
+MUTEX_UNLOCKED	include/geekos/synch.h	/^enum { MUTEX_UNLOCKED, MUTEX_LOCKED };$/;"	e	enum:__anon5
+Main	src/geekos/main.c	/^void Main(struct Boot_Info* bootInfo)$/;"	f
+Make_Runnable	src/geekos/kthread.c	/^void Make_Runnable(struct Kernel_Thread* kthread)$/;"	f
+Make_Runnable_Atomic	src/geekos/kthread.c	/^void Make_Runnable_Atomic(struct Kernel_Thread* kthread)$/;"	f
+Malloc	src/geekos/malloc.c	/^void* Malloc(ulong_t size)$/;"	f
+Malloc	src/libc/compat.c	/^void *Malloc(size_t n)$/;"	f
+Mask_DMA	src/geekos/dma.c	/^void Mask_DMA(int chan)$/;"	f
+MemSize	src/geekos/bget.c	491;"	d	file:
+Micro_Delay	src/geekos/timer.c	/^void Micro_Delay(int us)$/;"	f
+Mount	include/geekos/vfs.h	/^    int (*Mount)(struct Mount_Point *mountPoint);$/;"	m	struct:Filesystem_Ops
+Mount	src/geekos/vfs.c	/^int Mount(const char *devname, const char *pathPrefix, const char *fstype)$/;"	f
+Mount_Point	include/geekos/vfs.h	/^struct Mount_Point {$/;"	s
+Mount_Point_Ops	include/geekos/vfs.h	/^struct Mount_Point_Ops {$/;"	s
+Mount_Root_Filesystem	src/geekos/main.c	/^static void Mount_Root_Filesystem(void)$/;"	f	file:
+Move_Cursor	src/geekos/screen.c	/^static void Move_Cursor(int row, int col)$/;"	f	file:
+Mutex	include/geekos/synch.h	/^struct Mutex {$/;"	s
+Mutex_Init	src/geekos/synch.c	/^void Mutex_Init(struct Mutex* mutex)$/;"	f
+Mutex_Lock	src/geekos/synch.c	/^void Mutex_Lock(struct Mutex* mutex)$/;"	f
+Mutex_Lock_Imp	src/geekos/synch.c	/^static __inline__ void Mutex_Lock_Imp(struct Mutex* mutex)$/;"	f	file:
+Mutex_Unlock	src/geekos/synch.c	/^void Mutex_Unlock(struct Mutex* mutex)$/;"	f
+Mutex_Unlock_Imp	src/geekos/synch.c	/^static __inline__ void Mutex_Unlock_Imp(struct Mutex* mutex)$/;"	f	file:
+Mutex_Wait	src/geekos/synch.c	/^static void Mutex_Wait(struct Mutex *mutex)$/;"	f	file:
+NASM	build/Makefile	/^NASM := nasm$/;"	m
+NASM_KERNEL_OPTS	build/Makefile	/^NASM_KERNEL_OPTS := -I$(PROJECT_ROOT)\/src\/geekos\/ -f elf $(EXTRA_NASM_OPTS)$/;"	m
+NDEBUG	src/geekos/bget.c	466;"	d	file:
+NDIGITS_MAX	src/common/fmtout.c	94;"	d	file:
+NEXT	src/geekos/keyboard.c	62;"	d	file:
+NON_ELF_SYSTEM	build/Makefile	/^NON_ELF_SYSTEM     := yes$/;"	m
+NUMCOLS	include/geekos/screen.h	26;"	d
+NUMROWS	include/geekos/screen.h	27;"	d
+NUMSECS	build/Makefile	/^NUMSECS := $(PERL) $(PROJECT_ROOT)\/scripts\/numsecs$/;"	m
+NUM_DWORDS_PER_LINE	src/geekos/screen.c	57;"	d	file:
+NUM_EXCEPTIONS	include/geekos/idt.h	24;"	d
+NUM_EXTERNAL_INTS	include/geekos/idt.h	30;"	d
+NUM_FLOPPY_TYPES	src/geekos/floppy.c	161;"	d	file:
+NUM_GDT_ENTRIES	src/geekos/gdt.c	28;"	d	file:
+NUM_GDT_ENTRIES	src/geekos/setup.asm	/^NUM_GDT_ENTRIES equ 3		; number of entries in GDT$/;"	d
+NUM_IDT_ENTRIES	include/geekos/idt.h	18;"	d
+NUM_PAGE_DIR_ENTRIES	include/geekos/paging.h	23;"	d
+NUM_PAGE_TABLE_ENTRIES	include/geekos/paging.h	22;"	d
+NUM_SCREEN_DWORDS	src/geekos/screen.c	55;"	d	file:
+NUM_SCROLL_DWORDS	src/geekos/screen.c	56;"	d	file:
+NUM_SEMAPHORE	include/geekos/kthread.h	167;"	d
+NUM_USER_LDT_ENTRIES	include/geekos/user.h	33;"	d
+Newline	src/geekos/screen.c	/^static void Newline(void)$/;"	f	file:
+Notify_Request_Completion	src/geekos/blockdev.c	/^void Notify_Request_Completion(struct Block_Request *request, enum Request_State state, int errorCode)$/;"	f
+OBJCOPY_FLAGS	build/Makefile	/^OBJCOPY_FLAGS := -R .dynamic -R .note -R .comment$/;"	m
+OUR_RAND	src/geekos/bget.c	1271;"	d	file:
+OUTFILE	src/user/shell.c	20;"	d	file:
+OUTPUT_H	include/libc/fmtout.h	11;"	d
+O_CREATE	include/geekos/fileio.h	38;"	d
+O_EXCL	include/geekos/fileio.h	41;"	d
+O_READ	include/geekos/fileio.h	39;"	d
+O_WRITE	include/geekos/fileio.h	40;"	d
+Open	include/geekos/blockdev.h	/^    int (*Open)(struct Block_Device *dev);$/;"	m	struct:Block_Device_Ops
+Open	include/geekos/vfs.h	/^    int (*Open)(struct Mount_Point *mountPoint, const char *path, int mode, struct File **pFile);$/;"	m	struct:Mount_Point_Ops
+Open	src/geekos/vfs.c	/^int Open(const char *path, int mode, struct File **pFile)$/;"	f
+Open_Block_Device	src/geekos/blockdev.c	/^int Open_Block_Device(const char *name, struct Block_Device **pDev)$/;"	f
+Open_Directory	include/geekos/vfs.h	/^    int (*Open_Directory)(struct Mount_Point *mountPoint, const char *path, struct File **pDir);$/;"	m	struct:Mount_Point_Ops
+Open_Directory	src/geekos/vfs.c	/^int Open_Directory(const char *path, struct File **pDir)$/;"	f
+Out_Byte	src/geekos/io.c	/^void Out_Byte(ushort_t port, uchar_t value)$/;"	f
+Out_Word	src/geekos/io.c	/^void Out_Word(ushort_t port, ushort_t value)$/;"	f
+Output_Literal_Character	src/geekos/screen.c	/^static void Output_Literal_Character(int c)$/;"	f	file:
+Output_Sink	include/libc/fmtout.h	/^struct Output_Sink {$/;"	s
+PACKED	include/geekos/segment.h	/^    uchar_t baseHigh        PACKED ;$/;"	m	struct:Segment_Descriptor
+PACKED	include/geekos/segment.h	/^    ushort_t sizeLow        PACKED ;$/;"	m	struct:Segment_Descriptor
+PACKED	include/geekos/segment.h	23;"	d
+PACKED	include/geekos/segment.h	25;"	d
+PAD	build/Makefile	/^PAD := $(PERL) $(PROJECT_ROOT)\/scripts\/pad$/;"	m
+PAGEFAULT_INT	include/geekos/defs.h	47;"	d
+PAGEFILE_FILENAME	src/geekos/pfat.c	41;"	d	file:
+PAGE_ADDR	include/geekos/paging.h	29;"	d
+PAGE_ALLIGNED_ADDR	include/geekos/paging.h	28;"	d
+PAGE_ALLOCATED	include/geekos/mem.h	27;"	d
+PAGE_AVAIL	include/geekos/mem.h	24;"	d
+PAGE_DIRECTORY_INDEX	include/geekos/paging.h	25;"	d
+PAGE_HEAP	include/geekos/mem.h	29;"	d
+PAGE_HW	include/geekos/mem.h	26;"	d
+PAGE_KERN	include/geekos/mem.h	25;"	d
+PAGE_LOCKED	include/geekos/mem.h	31;"	d
+PAGE_MASK	include/geekos/defs.h	66;"	d
+PAGE_PAGEABLE	include/geekos/mem.h	30;"	d
+PAGE_POWER	include/geekos/defs.h	64;"	d
+PAGE_SIZE	include/geekos/defs.h	65;"	d
+PAGE_TABLE_INDEX	include/geekos/paging.h	26;"	d
+PAGE_UNUSED	include/geekos/mem.h	28;"	d
+PAUSE	include/geekos/kassert.h	46;"	d
+PAUSE	include/geekos/kassert.h	60;"	d
+PENDING	include/geekos/blockdev.h	/^    PENDING, COMPLETED, ERROR$/;"	e	enum:Request_State
+PERL	build/Makefile	/^PERL := perl$/;"	m
+PFAT_BOOT_RECORD_OFFSET	include/geekos/pfat.h	53;"	d
+PFAT_BOOT_RECORD_OFFSET	src/geekos/defs.asm	/^PFAT_BOOT_RECORD_OFFSET equ BIOS_SIGNATURE_OFFSET - PFAT_BOOT_RECORD_SIZE$/;"	d
+PFAT_BOOT_RECORD_SIZE	src/geekos/bootsect.asm	/^PFAT_BOOT_RECORD_SIZE equ 28$/;"	d
+PFAT_BOOT_RECORD_SIZE	src/geekos/defs.asm	/^PFAT_BOOT_RECORD_SIZE equ 28$/;"	d
+PFAT_Close	src/geekos/pfat.c	/^static int PFAT_Close(struct File *file)$/;"	f	file:
+PFAT_Close_Dir	src/geekos/pfat.c	/^static int PFAT_Close_Dir(struct File *dir)$/;"	f	file:
+PFAT_FStat	src/geekos/pfat.c	/^static int PFAT_FStat(struct File *file, struct VFS_File_Stat *stat)$/;"	f	file:
+PFAT_FStat_Dir	src/geekos/pfat.c	/^static int PFAT_FStat_Dir(struct File *dir, struct VFS_File_Stat *stat)$/;"	f	file:
+PFAT_File	src/geekos/pfat.c	/^struct PFAT_File {$/;"	s	file:
+PFAT_Instance	src/geekos/pfat.c	/^struct PFAT_Instance {$/;"	s	file:
+PFAT_Lookup	src/geekos/pfat.c	/^static directoryEntry *PFAT_Lookup(struct PFAT_Instance *instance, const char *path)$/;"	f	file:
+PFAT_MAGIC	include/geekos/pfat.h	50;"	d
+PFAT_Mount	src/geekos/pfat.c	/^static int PFAT_Mount(struct Mount_Point *mountPoint)$/;"	f	file:
+PFAT_Open	src/geekos/pfat.c	/^static int PFAT_Open(struct Mount_Point *mountPoint, const char *path, int mode, struct File **pFile)$/;"	f	file:
+PFAT_Open_Directory	src/geekos/pfat.c	/^static int PFAT_Open_Directory(struct Mount_Point *mountPoint, const char *path, struct File **pDir)$/;"	f	file:
+PFAT_Read	src/geekos/pfat.c	/^static int PFAT_Read(struct File *file, void *buf, ulong_t numBytes)$/;"	f	file:
+PFAT_Read_Entry	src/geekos/pfat.c	/^static int PFAT_Read_Entry(struct File *dir, struct VFS_Dir_Entry *entry)$/;"	f	file:
+PFAT_Register_Paging_File	src/geekos/pfat.c	/^static void PFAT_Register_Paging_File(struct Mount_Point *mountPoint, struct PFAT_Instance *instance)$/;"	f	file:
+PFAT_Seek	src/geekos/pfat.c	/^static int PFAT_Seek(struct File *file, ulong_t pos)$/;"	f	file:
+PFAT_Stat	src/geekos/pfat.c	/^static int PFAT_Stat(struct Mount_Point *mountPoint, const char *path, struct VFS_File_Stat *stat)$/;"	f	file:
+PFAT_Sync	src/geekos/pfat.c	/^static int PFAT_Sync(struct Mount_Point *mountPoint)$/;"	f	file:
+PFAT_Write	src/geekos/pfat.c	/^static int PFAT_Write(struct File *file, void *buf, ulong_t numBytes)$/;"	f	file:
+PF_R	include/geekos/elf.h	53;"	d
+PF_W	include/geekos/elf.h	54;"	d
+PF_X	include/geekos/elf.h	55;"	d
+PIPE	src/user/shell.c	21;"	d	file:
+POLYNOMIAL	src/geekos/crc32.c	12;"	d	file:
+PRIORITY_HIGH	include/geekos/kthread.h	97;"	d
+PRIORITY_IDLE	include/geekos/kthread.h	93;"	d
+PRIORITY_LOW	include/geekos/kthread.h	95;"	d
+PRIORITY_NORMAL	include/geekos/kthread.h	96;"	d
+PRIORITY_USER	include/geekos/kthread.h	94;"	d
+PROCESS_H	include/libc/process.h	12;"	d
+PROJECT_ROOT	build/Makefile	/^PROJECT_ROOT := ..$/;"	m
+PROTOTYPES	include/geekos/bget.h	17;"	d
+PTRDIFF_T_RANK	src/common/fmtout.c	78;"	d	file:
+PadFromStart	src/geekos/bootsect.asm	/^PadFromStart BIOS_SIGNATURE_OFFSET - PFAT_BOOT_RECORD_SIZE$/;"	l
+PadFromStart	src/geekos/bootsect.asm	/^PadFromStart BIOS_SIGNATURE_OFFSET$/;"	l
+Pad_From_Symbol	src/geekos/fd_boot.asm	/^Pad_From_Symbol BIOS_SIGNATURE_OFFSET, BeginText$/;"	l
+Pad_From_Symbol	src/geekos/fd_boot.asm	/^Pad_From_Symbol PFAT_BOOT_RECORD_OFFSET, BeginText$/;"	l
+Page	include/geekos/mem.h	/^struct Page {$/;"	s
+Page_Fault_Handler	src/geekos/paging.c	/^\/*static*\/ void Page_Fault_Handler(struct Interrupt_State* state)$/;"	f
+Page_Index	include/geekos/mem.h	/^static __inline__ int Page_Index(ulong_t addr)$/;"	f
+Paging_Device	include/geekos/vfs.h	/^struct Paging_Device {$/;"	s
+Panic	include/geekos/kassert.h	74;"	d
+Parse_ELF_Executable	src/geekos/elf.c	/^int Parse_ELF_Executable(char *exeFileData, ulong_t exeFileLength,$/;"	f
+PoolSize	src/geekos/bget.c	1276;"	d	file:
+PoolSize	src/geekos/bget.c	1278;"	d	file:
+Post_Request_And_Wait	src/geekos/blockdev.c	/^void Post_Request_And_Wait(struct Block_Request *request)$/;"	f
+Print	src/geekos/screen.c	/^void Print(const char *fmt, ...)$/;"	f
+Print	src/libc/conio.c	/^void Print(const char *fmt, ...)$/;"	f
+PrintHex	src/geekos/util.asm	/^PrintHex:$/;"	l
+PrintNL	src/geekos/util.asm	/^PrintNL:			; print CR and NL$/;"	l
+Print_Emit	src/geekos/screen.c	/^static void Print_Emit(struct Output_Sink *o, int ch) { Put_Char_Imp(ch); }$/;"	f	file:
+Print_Emit	src/libc/conio.c	/^static void Print_Emit(struct Output_Sink *o, int ch) { Put_Char(ch); }$/;"	f	file:
+Print_Fault_Info	src/geekos/paging.c	/^static void Print_Fault_Info(uint_t address, faultcode_t faultCode)$/;"	f	file:
+Print_Finish	src/geekos/screen.c	/^static void Print_Finish(struct Output_Sink *o) { Update_Cursor(); }$/;"	f	file:
+Print_Finish	src/libc/conio.c	/^static void Print_Finish(struct Output_Sink *o) { }$/;"	f	file:
+Print_Selector	src/geekos/int.c	/^static void Print_Selector(const char* regName, uint_t value)$/;"	f	file:
+Process	src/user/shell.c	/^struct Process {$/;"	s	file:
+Push	src/geekos/kthread.c	/^static __inline__ void Push(struct Kernel_Thread* kthread, ulong_t value)$/;"	f	file:
+Push_General_Registers	src/geekos/kthread.c	/^static void Push_General_Registers(struct Kernel_Thread* kthread)$/;"	f	file:
+Put_Buf	src/geekos/screen.c	/^void Put_Buf(const char* buf, ulong_t length)$/;"	f
+Put_Char	src/geekos/screen.c	/^void Put_Char(int c)$/;"	f
+Put_Char	src/libc/conio.c	/^int Put_Char(int ch)$/;"	f
+Put_Char_Imp	src/geekos/screen.c	/^static void Put_Char_Imp(int c)$/;"	f	file:
+Put_Cursor	src/geekos/screen.c	/^bool Put_Cursor(int row, int col)$/;"	f
+Put_Cursor	src/libc/conio.c	/^int Put_Cursor(int row, int col)$/;"	f
+Put_Graphic_Char	src/geekos/screen.c	/^static void Put_Graphic_Char(int c)$/;"	f	file:
+Put_String	src/geekos/screen.c	/^void Put_String(const char* s)$/;"	f
+QLSize	src/geekos/bget.c	563;"	d	file:
+QUEUE_MASK	src/geekos/keyboard.c	61;"	d	file:
+QUEUE_SIZE	src/geekos/keyboard.c	60;"	d	file:
+RED	include/geekos/screen.h	19;"	d
+REG_SKIP	src/geekos/lowlevel.asm	/^REG_SKIP equ (11*4)$/;"	d
+RIGHT_ALT	src/geekos/keyboard.c	50;"	d	file:
+RIGHT_CTRL	src/geekos/keyboard.c	48;"	d	file:
+RIGHT_SHIFT	src/geekos/keyboard.c	46;"	d	file:
+ROOT_DEVICE	src/geekos/main.c	40;"	d	file:
+ROOT_DEVICE	src/geekos/main.c	43;"	d	file:
+ROOT_PREFIX	src/geekos/main.c	41;"	d	file:
+ROOT_PREFIX	src/geekos/main.c	44;"	d	file:
+Read	include/geekos/vfs.h	/^    int (*Read)(struct File *file, void *buf, ulong_t numBytes);$/;"	m	struct:File_Ops
+Read	src/geekos/vfs.c	/^int Read(struct File *file, void *buf, ulong_t len)$/;"	f
+ReadSector	src/geekos/bootsect.asm	/^ReadSector:$/;"	l
+ReadSector	src/geekos/fd_boot.asm	/^ReadSector:$/;"	l
+Read_Entry	include/geekos/vfs.h	/^    int (*Read_Entry)(struct File *dir, struct VFS_Dir_Entry *entry);  \/* Read next directory entry. *\/$/;"	m	struct:File_Ops
+Read_Entry	src/geekos/vfs.c	/^int Read_Entry(struct File *file, struct VFS_Dir_Entry *entry)$/;"	f
+Read_From_Paging_File	src/geekos/paging.c	/^void Read_From_Paging_File(void *paddr, ulong_t vaddr, int pagefileIndex)$/;"	f
+Read_Fully	src/geekos/vfs.c	/^int Read_Fully(const char *path, void **pBuffer, ulong_t *pLen)$/;"	f
+Read_Key	src/geekos/keyboard.c	/^bool Read_Key(Keycode* keycode)$/;"	f
+Read_Line	src/libc/conio.c	/^void Read_Line(char* buf, size_t bufSize)$/;"	f
+Reap_Thread	src/geekos/kthread.c	/^static void Reap_Thread(struct Kernel_Thread* kthread)$/;"	f	file:
+Reaper	src/geekos/kthread.c	/^static void Reaper(ulong_t arg)$/;"	f	file:
+Recurse	src/user/workload.c	/^void Recurse(int x)$/;"	f
+Register_Block_Device	src/geekos/blockdev.c	/^int Register_Block_Device(const char *name, struct Block_Device_Ops *ops,$/;"	f
+Register_Filesystem	src/geekos/vfs.c	/^bool Register_Filesystem(const char *fsName, struct Filesystem_Ops *fsOps)$/;"	f
+Register_Paging_Device	src/geekos/vfs.c	/^void Register_Paging_Device(struct Paging_Device *pagingDevice)$/;"	f
+Remove_Thread	include/geekos/kthread.h	/^static __inline__ void Remove_Thread(struct Thread_Queue *queue, struct Kernel_Thread *kthread) {$/;"	f
+Repeatable	src/geekos/bget.c	1265;"	d	file:
+Request_State	include/geekos/blockdev.h	/^enum Request_State {$/;"	g
+Request_Type	include/geekos/blockdev.h	/^enum Request_Type {$/;"	g
+Reserve_DMA	src/geekos/dma.c	/^bool Reserve_DMA(int chan)$/;"	f
+Reset	src/geekos/screen.c	/^static void Reset(void)$/;"	f	file:
+Reset_Controller	src/geekos/floppy.c	/^static bool Reset_Controller(void)$/;"	f	file:
+Restore_Cursor	src/geekos/screen.c	/^static void Restore_Cursor(void)$/;"	f	file:
+Round_Down_To_Block	include/geekos/blockdev.h	/^static __inline__ ulong_t Round_Down_To_Block(ulong_t offset)$/;"	f
+Round_Down_To_Page	include/geekos/mem.h	/^static __inline__ ulong_t Round_Down_To_Page(ulong_t addr)$/;"	f
+Round_Up_To_Block	include/geekos/blockdev.h	/^static __inline__ ulong_t Round_Up_To_Block(ulong_t offset)$/;"	f
+Round_Up_To_Page	include/geekos/mem.h	/^static __inline__ ulong_t Round_Up_To_Page(ulong_t addr)$/;"	f
+SCAN_TABLE_SIZE	src/geekos/keyboard.c	98;"	d	file:
+SCHED_H	include/libc/sched.h	12;"	d
+SECTORS_PER_PAGE	src/geekos/paging.c	39;"	d	file:
+SECTORS_PER_TRACK	src/geekos/defs.asm	/^SECTORS_PER_TRACK equ 18$/;"	d
+SECTOR_SIZE	include/geekos/fileio.h	27;"	d
+SECTOR_SIZE	src/tools/buildFat.c	11;"	d	file:
+SEMA_H	include/libc/sema.h	12;"	d
+SETUPSEG	src/geekos/defs.asm	/^SETUPSEG equ 0x9020$/;"	d
+SHIFT_MASK	src/geekos/keyboard.c	51;"	d	file:
+SIZE_T_RANK	src/common/fmtout.c	77;"	d	file:
+SLAVE	src/geekos/irq.c	30;"	d	file:
+STOP	include/geekos/kassert.h	69;"	d
+STRING_H	include/libc/string.h	11;"	d
+SYM_PFX	build/Makefile	/^SYM_PFX            := _$/;"	m
+SYSCALL	include/geekos/syscall.h	34;"	d
+SYSCALL_INT	include/geekos/defs.h	42;"	d
+SYSCALL_REGS_0	include/geekos/syscall.h	74;"	d
+SYSCALL_REGS_1	include/geekos/syscall.h	75;"	d
+SYSCALL_REGS_2	include/geekos/syscall.h	76;"	d
+SYSCALL_REGS_3	include/geekos/syscall.h	77;"	d
+SYSCALL_REGS_4	include/geekos/syscall.h	78;"	d
+SYSCALL_REGS_5	include/geekos/syscall.h	79;"	d
+SYSTEM_NAME	build/Makefile	/^SYSTEM_NAME := $(shell uname -s)$/;"	m
+SYS_CREATESEMAPHORE	include/geekos/syscall.h	/^    SYS_CREATESEMAPHORE, \/* Create semaphore system call  *\/$/;"	e	enum:__anon4
+SYS_DESTROYSEMAPHORE	include/geekos/syscall.h	/^    SYS_DESTROYSEMAPHORE,  \/* Destroy semaphore system call  *\/$/;"	e	enum:__anon4
+SYS_EXIT	include/geekos/syscall.h	/^    SYS_EXIT,		 \/* Exit system call  *\/$/;"	e	enum:__anon4
+SYS_GETCURSOR	include/geekos/syscall.h	/^    SYS_GETCURSOR,	 \/* Get current cursor position *\/$/;"	e	enum:__anon4
+SYS_GETKEY	include/geekos/syscall.h	/^    SYS_GETKEY,		 \/* Get key system call  *\/$/;"	e	enum:__anon4
+SYS_GETPID	include/geekos/syscall.h	/^    SYS_GETPID,		 \/* Get pid (process id) system call  *\/$/;"	e	enum:__anon4
+SYS_GETTIMEOFDAY	include/geekos/syscall.h	/^    SYS_GETTIMEOFDAY,	 \/* Get time of day system call  *\/$/;"	e	enum:__anon4
+SYS_NULL	include/geekos/syscall.h	/^    SYS_NULL,		 \/* Null (no-op) system call  *\/$/;"	e	enum:__anon4
+SYS_P	include/geekos/syscall.h	/^    SYS_P,		 \/* P (acquire semaphore) system call  *\/$/;"	e	enum:__anon4
+SYS_PRINTSTRING	include/geekos/syscall.h	/^    SYS_PRINTSTRING,	 \/* Print string system call  *\/$/;"	e	enum:__anon4
+SYS_PUTCURSOR	include/geekos/syscall.h	/^    SYS_PUTCURSOR,	 \/* Put current cursor position *\/$/;"	e	enum:__anon4
+SYS_SETATTR	include/geekos/syscall.h	/^    SYS_SETATTR,	 \/* Set screen attribute system call  *\/$/;"	e	enum:__anon4
+SYS_SETSCHEDULINGPOLICY	include/geekos/syscall.h	/^    SYS_SETSCHEDULINGPOLICY,  \/* Set scheduler policy system call  *\/$/;"	e	enum:__anon4
+SYS_SPAWN	include/geekos/syscall.h	/^    SYS_SPAWN,		 \/* Spawn process system call  *\/$/;"	e	enum:__anon4
+SYS_V	include/geekos/syscall.h	/^    SYS_V,		 \/* V (release semaphore) system call  *\/$/;"	e	enum:__anon4
+SYS_WAIT	include/geekos/syscall.h	/^    SYS_WAIT,		 \/* Wait for child process to exit system call  *\/$/;"	e	enum:__anon4
+S_ARG	src/geekos/screen.c	/^    S_ARG,		\/* Scanning a numeric argument *\/$/;"	e	enum:State	file:
+S_CMD	src/geekos/screen.c	/^    S_CMD,		\/* Command *\/$/;"	e	enum:State	file:
+S_ESC	src/geekos/screen.c	/^    S_ESC,		\/* Saw ESC character - begin output escape sequence *\/$/;"	e	enum:State	file:
+S_ESC2	src/geekos/screen.c	/^    S_ESC2,		\/* Saw '[' character - continue output escape sequence *\/$/;"	e	enum:State	file:
+S_NORMAL	src/geekos/screen.c	/^    S_NORMAL,		\/* Normal state - output is echoed verbatim *\/$/;"	e	enum:State	file:
+Save_Cursor	src/geekos/screen.c	/^static void Save_Cursor(void)$/;"	f	file:
+Schedule	src/geekos/kthread.c	/^void Schedule(void)$/;"	f
+Scroll	src/geekos/screen.c	/^static void Scroll(void)$/;"	f	file:
+Seek	include/geekos/vfs.h	/^    int (*Seek)(struct File *file, ulong_t pos);$/;"	m	struct:File_Ops
+Seek	src/geekos/vfs.c	/^int Seek(struct File *file, ulong_t len)$/;"	f
+Segment_Descriptor	include/geekos/segment.h	/^struct Segment_Descriptor {$/;"	s
+Selector	include/geekos/segment.h	/^static __inline__ ushort_t Selector(int rpl, bool segmentIsInGDT, int index)$/;"	f
+Sense_Interrupt_Status	src/geekos/floppy.c	/^static void Sense_Interrupt_Status(uchar_t* st0, uchar_t *pcn)$/;"	f	file:
+Set_Bit	src/geekos/bitset.c	/^void Set_Bit(void *bitSet, uint_t bitPos)$/;"	f
+Set_Current_Attr	src/geekos/screen.c	/^void Set_Current_Attr(uchar_t attrib)$/;"	f
+Set_IRQ_Mask	src/geekos/irq.c	/^void Set_IRQ_Mask(ushort_t mask)$/;"	f
+Set_Kernel_Stack_Pointer	src/geekos/tss.c	/^void Set_Kernel_Stack_Pointer(ulong_t esp0)$/;"	f
+Set_PDBR	src/geekos/lowlevel.asm	/^Set_PDBR:$/;"	l
+Set_Size_And_Base_Bytes	src/geekos/segment.c	/^static __inline__ void Set_Size_And_Base_Bytes($/;"	f	file:
+Set_Size_And_Base_Pages	src/geekos/segment.c	/^static __inline__ void Set_Size_And_Base_Pages($/;"	f	file:
+Setup_DMA	src/geekos/dma.c	/^void Setup_DMA(enum DMA_Direction direction, int chan, void *addr_, ulong_t size)$/;"	f
+Setup_Drive_Parameters	src/geekos/floppy.c	/^static void Setup_Drive_Parameters(int drive, int type)$/;"	f	file:
+Setup_Kernel_Thread	src/geekos/kthread.c	/^static void Setup_Kernel_Thread($/;"	f	file:
+Setup_User_Thread	src/geekos/kthread.c	/^\/*static*\/ void Setup_User_Thread($/;"	f
+Shutdown_Thread	src/geekos/kthread.c	/^static void Shutdown_Thread(void)$/;"	f	file:
+Signature	src/geekos/bootsect.asm	/^Signature   dw 0xAA55   ; BIOS controls this to ensure this is a boot sector$/;"	d
+Signature	src/geekos/fd_boot.asm	/^Signature   dw 0xAA55   ; BIOS controls this to ensure this is a boot sector$/;"	d
+SizeQ	src/geekos/bget.c	564;"	d	file:
+SizeQuant	src/geekos/bget.c	413;"	d	file:
+Skip_Whitespace	src/geekos/argblock.c	/^static const char *Skip_Whitespace(const char *s)$/;"	f	file:
+Spawn	src/geekos/user.c	/^int Spawn(const char *program, const char *command, struct Kernel_Thread **pThread)$/;"	f
+Spawn_Init_Process	src/geekos/main.c	/^static void Spawn_Init_Process(void)$/;"	f	file:
+Spawn_Single_Command	src/user/shell.c	/^void Spawn_Single_Command(struct Process procList[], int nproc, const char *path)$/;"	f
+Spawn_With_Path	src/libc/process.c	/^int Spawn_With_Path(const char *program, const char *command,$/;"	f
+Spin	src/geekos/timer.c	/^static void Spin(int count)$/;"	f	file:
+Start_Arg	src/geekos/screen.c	/^static void Start_Arg(int argNum)$/;"	f	file:
+Start_Escape	src/geekos/screen.c	/^static void Start_Escape(void)$/;"	f	file:
+Start_Kernel_Thread	src/geekos/kthread.c	/^struct Kernel_Thread* Start_Kernel_Thread($/;"	f
+Start_Motor	src/geekos/floppy.c	/^static void Start_Motor(int drive)$/;"	f	file:
+Start_Timer	src/geekos/timer.c	/^int Start_Timer(int ticks, timerCallback cb)$/;"	f
+Start_User_Thread	src/geekos/kthread.c	/^Start_User_Thread(struct User_Context* userContext, bool detached)$/;"	f
+Stat	include/geekos/vfs.h	/^    int (*Stat)(struct Mount_Point *mountPoint, const char *path, struct VFS_File_Stat *stat);$/;"	m	struct:Mount_Point_Ops
+Stat	src/geekos/vfs.c	/^int Stat(const char *path, struct VFS_File_Stat *stat)$/;"	f
+State	src/geekos/screen.c	/^enum State {$/;"	g	file:
+Stop_Motor	src/geekos/floppy.c	/^static void Stop_Motor(int drive)$/;"	f	file:
+String_Emit	src/common/string.c	/^static void String_Emit(struct Output_Sink *o_, int ch)$/;"	f	file:
+String_Finish	src/common/string.c	/^static void String_Finish(struct Output_Sink *o_)$/;"	f	file:
+String_Output_Sink	src/common/string.c	/^struct String_Output_Sink {$/;"	s	file:
+Strip_Leading_Whitespace	src/user/shell.c	/^char *Strip_Leading_Whitespace(char *s)$/;"	f
+Switch_To_Thread	src/geekos/lowlevel.asm	/^Switch_To_Thread:$/;"	l
+Switch_To_User_Context	src/geekos/user.c	/^void Switch_To_User_Context(struct Kernel_Thread* kthread, struct Interrupt_State* state)$/;"	f
+Sync	include/geekos/vfs.h	/^    int (*Sync)(struct Mount_Point *mountPoint);$/;"	m	struct:Mount_Point_Ops
+Sync	src/geekos/vfs.c	/^int Sync(void)$/;"	f
+Sys_CreateSemaphore	src/geekos/syscall.c	/^static int Sys_CreateSemaphore(struct Interrupt_State* state)$/;"	f	file:
+Sys_DestroySemaphore	src/geekos/syscall.c	/^static int Sys_DestroySemaphore(struct Interrupt_State* state)$/;"	f	file:
+Sys_Exit	src/geekos/syscall.c	/^static int Sys_Exit(struct Interrupt_State* state)$/;"	f	file:
+Sys_GetCursor	src/geekos/syscall.c	/^static int Sys_GetCursor(struct Interrupt_State* state)$/;"	f	file:
+Sys_GetKey	src/geekos/syscall.c	/^static int Sys_GetKey(struct Interrupt_State* state)$/;"	f	file:
+Sys_GetPID	src/geekos/syscall.c	/^static int Sys_GetPID(struct Interrupt_State* state)$/;"	f	file:
+Sys_GetTimeOfDay	src/geekos/syscall.c	/^static int Sys_GetTimeOfDay(struct Interrupt_State* state)$/;"	f	file:
+Sys_Null	src/geekos/syscall.c	/^static int Sys_Null(struct Interrupt_State* state)$/;"	f	file:
+Sys_P	src/geekos/syscall.c	/^static int Sys_P(struct Interrupt_State* state)$/;"	f	file:
+Sys_PrintString	src/geekos/syscall.c	/^static int Sys_PrintString(struct Interrupt_State* state)$/;"	f	file:
+Sys_PutCursor	src/geekos/syscall.c	/^static int Sys_PutCursor(struct Interrupt_State* state)$/;"	f	file:
+Sys_SetAttr	src/geekos/syscall.c	/^static int Sys_SetAttr(struct Interrupt_State* state)$/;"	f	file:
+Sys_SetSchedulingPolicy	src/geekos/syscall.c	/^static int Sys_SetSchedulingPolicy(struct Interrupt_State* state)$/;"	f	file:
+Sys_Spawn	src/geekos/syscall.c	/^static int Sys_Spawn(struct Interrupt_State* state)$/;"	f	file:
+Sys_V	src/geekos/syscall.c	/^static int Sys_V(struct Interrupt_State* state)$/;"	f	file:
+Sys_Wait	src/geekos/syscall.c	/^static int Sys_Wait(struct Interrupt_State* state)$/;"	f	file:
+Syscall	include/geekos/syscall.h	/^typedef int (*Syscall)(struct Interrupt_State* state);$/;"	t
+Syscall_Handler	src/geekos/trap.c	/^static void Syscall_Handler(struct Interrupt_State* state)$/;"	f	file:
+TABWIDTH	include/geekos/screen.h	29;"	d
+TARGET_AR	build/Makefile	/^TARGET_AR := $(TARGET_CC_PREFIX)ar$/;"	m
+TARGET_CC	build/Makefile	/^TARGET_CC := $(TARGET_CC_PREFIX)gcc$/;"	m
+TARGET_LD	build/Makefile	/^TARGET_LD := $(TARGET_CC_PREFIX)ld$/;"	m
+TARGET_NM	build/Makefile	/^TARGET_NM := $(TARGET_CC_PREFIX)nm$/;"	m
+TARGET_OBJCOPY	build/Makefile	/^TARGET_OBJCOPY := $(TARGET_CC_PREFIX)objcopy$/;"	m
+TARGET_RANLIB	build/Makefile	/^TARGET_RANLIB := $(TARGET_CC_PREFIX)ranlib$/;"	m
+TICKS_PER_SEC	src/geekos/timer.c	55;"	d	file:
+TIMER_IRQ	include/geekos/timer.h	13;"	d
+TODO	include/geekos/kassert.h	33;"	d
+TODO	include/geekos/kassert.h	59;"	d
+TOLOWER	include/geekos/ktypes.h	39;"	d
+TOUPPER	include/geekos/ktypes.h	40;"	d
+TSS	include/geekos/tss.h	/^struct TSS {$/;"	s
+Thread_Start_Func	include/geekos/kthread.h	/^typedef void (*Thread_Start_Func)(ulong_t arg);$/;"	t
+Timer_Calibrate	src/geekos/timer.c	/^static void Timer_Calibrate(struct Interrupt_State* state)$/;"	f	file:
+Timer_Interrupt_Handler	src/geekos/timer.c	/^static void Timer_Interrupt_Handler(struct Interrupt_State* state)$/;"	f	file:
+Tlocal_Create	src/geekos/kthread.c	/^int Tlocal_Create(tlocal_key_t *key, tlocal_destructor_t destructor) $/;"	f
+Tlocal_Exit	src/geekos/kthread.c	/^static void Tlocal_Exit(struct Kernel_Thread* curr) {$/;"	f	file:
+Tlocal_Get	src/geekos/kthread.c	/^void *Tlocal_Get(tlocal_key_t k) $/;"	f
+Tlocal_Put	src/geekos/kthread.c	/^void Tlocal_Put(tlocal_key_t k, const void *v) $/;"	f
+Trim_Newline	src/user/shell.c	/^void Trim_Newline(char *s)$/;"	f
+USER_BASE_ADDR	build/Makefile	/^USER_BASE_ADDR := 0x1000$/;"	m
+USER_C_SRCS	build/Makefile	/^USER_C_SRCS := \\$/;"	m
+USER_ENTRY	build/Makefile	/^USER_ENTRY = $(SYM_PFX)_Entry$/;"	m
+USER_IMP_C	build/Makefile	/^USER_IMP_C := uservm.c$/;"	m
+USER_MAX_FILES	include/geekos/user.h	22;"	d
+USER_PRIVILEGE	include/geekos/defs.h	36;"	d
+USER_PROGS	build/Makefile	/^USER_PROGS := $(USER_C_SRCS:%.c=user\/%.exe)$/;"	m
+US_PER_TICK	src/geekos/timer.c	268;"	d	file:
+Unmask_DMA	src/geekos/dma.c	/^void Unmask_DMA(int chan)$/;"	f
+Unpack_Path	src/geekos/vfs.c	/^static bool Unpack_Path(const char *path, char *prefix, const char **pSuffix)$/;"	f	file:
+Update_Attributes	src/geekos/screen.c	/^static void Update_Attributes(void)$/;"	f	file:
+Update_Cursor	src/geekos/screen.c	/^static void Update_Cursor(void)$/;"	f	file:
+User_Context	include/geekos/user.h	/^struct User_Context {$/;"	s
+User_Interrupt_State	include/geekos/int.h	/^struct User_Interrupt_State {$/;"	s
+V	src/geekos/bget.c	566;"	d	file:
+VALID_CHANNEL	src/geekos/dma.c	53;"	d	file:
+VALID_MEM	src/geekos/dma.c	60;"	d	file:
+VFS_ACL_Entry	include/geekos/fileio.h	/^struct VFS_ACL_Entry {$/;"	s
+VFS_Dir_Entry	include/geekos/fileio.h	/^struct VFS_Dir_Entry {$/;"	s
+VFS_File_Stat	include/geekos/fileio.h	/^struct VFS_File_Stat {$/;"	s
+VFS_MAX_ACL_ENTRIES	include/geekos/fileio.h	24;"	d
+VFS_MAX_FS_NAME_LEN	include/geekos/fileio.h	21;"	d
+VFS_MAX_PATH_LEN	include/geekos/fileio.h	18;"	d
+VFS_Mount_Request	include/geekos/fileio.h	/^struct VFS_Mount_Request {$/;"	s
+VFS_NO_MORE_DIR_ENTRIES	include/geekos/vfs.h	25;"	d
+VIDMEM	include/geekos/screen.h	38;"	d
+VIDMEM_ADDR	include/geekos/screen.h	37;"	d
+VIDSEG	src/geekos/defs.asm	/^VIDSEG equ 0xb800$/;"	d
+VM_EXEC	include/geekos/paging.h	38;"	d
+VM_NOCACHE	include/geekos/paging.h	36;"	d
+VM_READ	include/geekos/paging.h	37;"	d
+VM_USER	include/geekos/paging.h	35;"	d
+VM_WRITE	include/geekos/paging.h	34;"	d
+VPATH	build/Makefile	/^VPATH := $(PROJECT_ROOT)\/src$/;"	m
+Wait	src/geekos/kthread.c	/^void Wait(struct Thread_Queue* waitQueue)$/;"	f
+Wait_For_Interrupt	src/geekos/floppy.c	/^static void Wait_For_Interrupt(void)$/;"	f	file:
+Wait_For_Key	src/geekos/keyboard.c	/^Keycode Wait_For_Key(void)$/;"	f
+Wait_For_MRQ	src/geekos/floppy.c	/^static void Wait_For_MRQ(uchar_t readyValue)$/;"	f	file:
+Wake_Up	src/geekos/kthread.c	/^void Wake_Up(struct Thread_Queue* waitQueue)$/;"	f
+Wake_Up_One	src/geekos/kthread.c	/^void Wake_Up_One(struct Thread_Queue* waitQueue)$/;"	f
+Write	include/geekos/vfs.h	/^    int (*Write)(struct File *file, void *buf, ulong_t numBytes);$/;"	m	struct:File_Ops
+Write	src/geekos/vfs.c	/^int Write(struct File *file, void *buf, ulong_t len)$/;"	f
+Write_To_Paging_File	src/geekos/paging.c	/^void Write_To_Paging_File(void *paddr, ulong_t vaddr, int pagefileIndex)$/;"	f
+Yield	src/geekos/kthread.c	/^void Yield(void)$/;"	f
+ZEROFILE	build/Makefile	/^ZEROFILE := $(PERL) $(PROJECT_ROOT)\/scripts\/zerofile$/;"	m
+_	include/geekos/bget.h	23;"	d
+_	include/geekos/bget.h	25;"	d
+_Entry	src/libc/entry.c	/^void _Entry(void)$/;"	f
+_KEYPAD	include/geekos/keyboard.h	99;"	d
+_S	include/geekos/symbol.h	15;"	d
+_S	include/geekos/symbol.h	17;"	d
+_SPECIAL	include/geekos/keyboard.h	69;"	d
+__Disable_Interrupts	include/geekos/int.h	/^static __inline__ void __Disable_Interrupts(void)$/;"	f
+__Enable_Interrupts	include/geekos/int.h	/^static __inline__ void __Enable_Interrupts(void)$/;"	f
+__strerrTable	build/libc/errno.c	/^const char *__strerrTable[] = {$/;"	v
+__strerrTableSize	build/libc/errno.c	/^const int __strerrTableSize = sizeof(__strerrTable) \/ sizeof(const char *);$/;"	v
+accesed	include/geekos/paging.h	/^    uint_t accesed:1;$/;"	m	struct:__anon1
+accesed	include/geekos/paging.h	/^    uint_t accesed:1;$/;"	m	struct:__anon2
+acls	include/geekos/fileio.h	/^    struct VFS_ACL_Entry acls[VFS_MAX_ACL_ENTRIES];$/;"	m	struct:VFS_File_Stat	typeref:struct:VFS_File_Stat::VFS_ACL_Entry
+acqfcn	src/geekos/bget.c	/^static void *(*acqfcn) _((bufsize size)) = NULL;$/;"	v	file:
+after_move	src/geekos/bootsect.asm	/^after_move:$/;"	l
+after_move	src/geekos/fd_boot.asm	/^after_move:$/;"	l
+alignment	include/geekos/elf.h	/^    unsigned  int   alignment;$/;"	m	struct:__anon7
+alive	include/geekos/kthread.h	/^    bool alive;$/;"	m	struct:Kernel_Thread
+argBlockAddr	include/geekos/user.h	/^    ulong_t argBlockAddr;$/;"	m	struct:User_Context
+argList	src/geekos/screen.c	/^    int argList[MAXARGS];$/;"	m	struct:Console_State	file:
+argc	include/geekos/argblock.h	/^    int argc;$/;"	m	struct:Argument_Block
+argv	include/geekos/argblock.h	/^    char **argv;$/;"	m	struct:Argument_Block
+assert	include/libc/conio.h	31;"	d
+assert	src/geekos/bget.c	459;"	d	file:
+atoi	src/common/string.c	/^int atoi(const char *buf) $/;"	f
+avail	include/geekos/kthread.h	/^	int avail;$/;"	m	struct:semaphore
+avail	include/geekos/segment.h	/^    uint_t avail       : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+baseLow	include/geekos/segment.h	/^    uint_t baseLow     : 24 PACKED ;$/;"	m	struct:Segment_Descriptor
+bchain	src/geekos/bget.c	/^static char *bchain = NULL;	      \/* Our private buffer chain *\/$/;"	v	file:
+bcompact	src/geekos/bget.c	/^static int bcompact(bsize, seq)$/;"	f	file:
+bdhead	src/geekos/bget.c	/^struct bdhead {$/;"	s	file:
+bectl	src/geekos/bget.c	/^void bectl(compact, acquire, release, pool_incr)$/;"	f
+bexpand	src/geekos/bget.c	/^static void *bexpand(size)$/;"	f	file:
+bfhead	src/geekos/bget.c	/^struct bfhead {$/;"	s	file:
+bget	src/geekos/bget.c	/^void *bget(requested_size)$/;"	f
+bgetr	src/geekos/bget.c	/^void *bgetr(buf, size)$/;"	f
+bgetz	src/geekos/bget.c	/^void *bgetz(size)$/;"	f
+bh	src/geekos/bget.c	/^    struct bhead bh;		      \/* Common allocated\/free header *\/$/;"	m	struct:bfhead	typeref:struct:bfhead::bhead	file:
+bh	src/geekos/bget.c	/^    struct bhead bh;		      \/* Common header *\/$/;"	m	struct:bdhead	typeref:struct:bdhead::bhead	file:
+bhead	src/geekos/bget.c	/^struct bhead {$/;"	s	file:
+blimit	src/geekos/bget.c	/^static bufsize blimit(bs)$/;"	f	file:
+blink	src/geekos/bget.c	/^    struct bfhead *blink;	      \/* Backward link *\/$/;"	m	struct:qlinks	typeref:struct:qlinks::bfhead	file:
+blockNum	include/geekos/blockdev.h	/^    int blockNum;$/;"	m	struct:Block_Request
+blocked	include/geekos/kthread.h	/^    bool blocked;$/;"	m	struct:Kernel_Thread
+bootInfoSize	include/geekos/bootinfo.h	/^    int bootInfoSize;	 \/* size of this struct; for versioning *\/$/;"	m	struct:Boot_Info
+bootSector	include/geekos/pfat.h	/^} bootSector;$/;"	t	typeref:struct:__anon8
+bp	src/geekos/bget.c	/^static char *bp = NULL; 	      \/* Our initial buffer pool *\/$/;"	v	file:
+bpool	src/geekos/bget.c	/^void bpool(buf, len)$/;"	f
+bpoold	src/geekos/bget.c	/^void bpoold(buf, dumpalloc, dumpfree)$/;"	f
+bpoolv	src/geekos/bget.c	/^int bpoolv(buf)$/;"	f
+brel	src/geekos/bget.c	/^void brel(buf)$/;"	f
+bshrink	src/geekos/bget.c	/^static void bshrink(buf)$/;"	f	file:
+bsize	src/geekos/bget.c	/^    bufsize bsize;		      \/* Buffer size: positive if free,$/;"	m	struct:bhead	file:
+bstats	src/geekos/bget.c	/^void bstats(curalloc, totfree, maxfree, nget, nrel)$/;"	f
+bstatse	src/geekos/bget.c	/^void bstatse(pool_incr, npool, npget, nprel, ndget, ndrel)$/;"	f
+buf	include/geekos/blockdev.h	/^    void *buf;$/;"	m	struct:Block_Request
+bufdump	src/geekos/bget.c	/^void bufdump(buf)$/;"	f
+bufsize	include/geekos/bget.h	/^typedef long bufsize;$/;"	t
+callBack	include/geekos/timer.h	/^    timerCallback callBack;		 \/* Queue to wakeup on timer expire *\/$/;"	m	struct:__anon10
+checkPaging	src/geekos/paging.c	/^void checkPaging()$/;"	f
+clock	include/geekos/mem.h	/^    int clock;$/;"	m	struct:Page
+col	src/geekos/screen.c	/^    int row, col;$/;"	m	struct:Console_State	file:
+command	src/user/shell.c	/^	char *command;$/;"	m	struct:Process	file:
+compfcn	src/geekos/bget.c	/^static int (*compfcn) _((bufsize sizereq, int sequence)) = NULL;$/;"	v	file:
+count	include/geekos/kthread.h	/^	int count;$/;"	m	struct:semaphore
+cr3	include/geekos/tss.h	/^    ulong_t cr3;$/;"	m	struct:TSS
+crc32	src/geekos/crc32.c	/^ulong_t crc32(ulong_t crc, char const *buf, size_t len) {$/;"	f
+crc_table	src/geekos/crc32.c	/^static ulong_t crc_table[256];$/;"	v	file:
+cs	include/geekos/int.h	/^    uint_t cs;$/;"	m	struct:Interrupt_State
+cs	include/geekos/tss.h	/^    ushort_t cs;$/;"	m	struct:TSS
+csSelector	include/geekos/user.h	/^    ushort_t csSelector;$/;"	m	struct:User_Context
+currentAttr	src/geekos/screen.c	/^    uchar_t currentAttr;$/;"	m	struct:Console_State	file:
+currentReadyQueue	include/geekos/kthread.h	/^    int currentReadyQueue;$/;"	m	struct:Kernel_Thread
+cylinders	src/geekos/floppy.c	/^    int cylinders;$/;"	m	struct:Floppy_Parameters	file:
+date	include/geekos/pfat.h	/^    short date;$/;"	m	struct:__anon9
+dbBit	include/geekos/segment.h	/^    uint_t dbBit       : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+dead	src/geekos/bootsect.asm	/^dead:$/;"	l
+debugFaults	src/geekos/paging.c	/^int debugFaults = 0;$/;"	v
+debugPFAT	src/geekos/pfat.c	/^int debugPFAT = 0;$/;"	v
+debugTrap	include/geekos/tss.h	/^    uint_t debugTrap : 1;$/;"	m	struct:TSS
+debugVFS	src/geekos/vfs.c	/^int debugVFS = 0;$/;"	v
+dev	include/geekos/blockdev.h	/^    struct Block_Device *dev;$/;"	m	struct:Block_Request	typeref:struct:Block_Request::Block_Device
+dev	include/geekos/vfs.h	/^    struct Block_Device *dev;	 \/* Block device filesystem is mounted on. *\/$/;"	m	struct:Mount_Point	typeref:struct:Mount_Point::Block_Device
+dev	include/geekos/vfs.h	/^    struct Block_Device *dev;	 \/* Block device for paging file. *\/$/;"	m	struct:Paging_Device	typeref:struct:Paging_Device::Block_Device
+devname	include/geekos/fileio.h	/^    char devname[BLOCKDEV_MAX_NAME_LEN+1];\/* Name of block device: e.g., "ide1". *\/$/;"	m	struct:VFS_Mount_Request
+directory	include/geekos/pfat.h	/^    char directory:1;$/;"	m	struct:__anon9
+directoryEntry	include/geekos/pfat.h	/^} directoryEntry;$/;"	t	typeref:struct:__anon9
+dirty	include/geekos/paging.h	/^    uint_t dirty:1;$/;"	m	struct:__anon2
+dpl	include/geekos/idt.h	/^    unsigned dpl : 2;$/;"	m	struct:Interrupt_Gate
+dpl	include/geekos/segment.h	/^    uint_t dpl         : 2  PACKED ;$/;"	m	struct:Segment_Descriptor
+driverData	include/geekos/blockdev.h	/^    void *driverData;$/;"	m	struct:Block_Device
+drives	src/geekos/ide.c	/^static ideDisk drives[IDE_MAX_DRIVES];$/;"	v	file:
+ds	include/geekos/int.h	/^    uint_t ds;$/;"	m	struct:Interrupt_State
+ds	include/geekos/tss.h	/^    ushort_t ds;$/;"	m	struct:TSS
+dsSelector	include/geekos/user.h	/^    ushort_t dsSelector;$/;"	m	struct:User_Context
+dumpAlloc	src/geekos/bget.c	1283;"	d	file:
+dumpFree	src/geekos/bget.c	1284;"	d	file:
+eax	include/geekos/int.h	/^    uint_t eax;$/;"	m	struct:Interrupt_State
+eax	include/geekos/tss.h	/^    ulong_t eax;$/;"	m	struct:TSS
+ebp	include/geekos/int.h	/^    uint_t ebp;$/;"	m	struct:Interrupt_State
+ebp	include/geekos/tss.h	/^    ulong_t ebp;$/;"	m	struct:TSS
+ebx	include/geekos/int.h	/^    uint_t ebx;$/;"	m	struct:Interrupt_State
+ebx	include/geekos/tss.h	/^    ulong_t ebx;$/;"	m	struct:TSS
+ecx	include/geekos/int.h	/^    uint_t ecx;$/;"	m	struct:Interrupt_State
+ecx	include/geekos/tss.h	/^    ulong_t ecx;$/;"	m	struct:TSS
+edi	include/geekos/int.h	/^    uint_t edi;$/;"	m	struct:Interrupt_State
+edi	include/geekos/tss.h	/^    ulong_t edi;$/;"	m	struct:TSS
+edx	include/geekos/int.h	/^    uint_t edx;$/;"	m	struct:Interrupt_State
+edx	include/geekos/tss.h	/^    ulong_t edx;$/;"	m	struct:TSS
+eflags	include/geekos/int.h	/^    uint_t eflags;$/;"	m	struct:Interrupt_State
+eflags	include/geekos/tss.h	/^    ulong_t eflags;$/;"	m	struct:TSS
+ehsize	include/geekos/elf.h	/^    unsigned  short	ehsize;$/;"	m	struct:__anon6
+eip	include/geekos/int.h	/^    uint_t eip;$/;"	m	struct:Interrupt_State
+eip	include/geekos/tss.h	/^    ulong_t eip;$/;"	m	struct:TSS
+elfHeader	include/geekos/elf.h	/^} elfHeader;$/;"	t	typeref:struct:__anon6
+endPos	include/geekos/vfs.h	/^    ulong_t endPos;		 \/* End position (i.e., the length of the file). *\/$/;"	m	struct:File
+entry	include/geekos/elf.h	/^    unsigned  int	entry;$/;"	m	struct:__anon6
+entry	include/geekos/mem.h	/^    pte_t *entry;			 \/* Page table entry referring to the page *\/$/;"	m	struct:Page
+entry	src/geekos/pfat.c	/^    directoryEntry *entry;		 \/* Directory entry of the file *\/$/;"	m	struct:PFAT_File	file:
+entryAddr	include/geekos/elf.h	/^    ulong_t entryAddr;	 	\/* Code entry point address *\/$/;"	m	struct:Exe_Format
+entryAddr	include/geekos/user.h	/^    ulong_t entryAddr;$/;"	m	struct:User_Context
+errorCode	include/geekos/blockdev.h	/^    volatile int errorCode;$/;"	m	struct:Block_Request
+errorCode	include/geekos/int.h	/^    uint_t errorCode;$/;"	m	struct:Interrupt_State
+es	include/geekos/int.h	/^    uint_t es;$/;"	m	struct:Interrupt_State
+es	include/geekos/tss.h	/^    ushort_t es;$/;"	m	struct:TSS
+esi	include/geekos/int.h	/^    uint_t esi;$/;"	m	struct:Interrupt_State
+esi	include/geekos/tss.h	/^    ulong_t esi;$/;"	m	struct:TSS
+esp	include/geekos/kthread.h	/^    ulong_t esp;			 \/* offset 0 *\/$/;"	m	struct:Kernel_Thread
+esp	include/geekos/tss.h	/^    ulong_t esp;$/;"	m	struct:TSS
+esp0	include/geekos/tss.h	/^    ulong_t esp0;$/;"	m	struct:TSS
+esp1	include/geekos/tss.h	/^    ulong_t esp1;$/;"	m	struct:TSS
+esp2	include/geekos/tss.h	/^    ulong_t esp2;$/;"	m	struct:TSS
+espUser	include/geekos/int.h	/^    uint_t espUser;$/;"	m	struct:User_Interrupt_State
+exitCode	include/geekos/kthread.h	/^    int exitCode;$/;"	m	struct:Kernel_Thread
+exitCodes	src/user/shell.c	/^int exitCodes = 0;$/;"	v
+exp_incr	src/geekos/bget.c	/^static bufsize exp_incr = 0;	      \/* Expansion block size *\/$/;"	v	file:
+fat	src/geekos/pfat.c	/^    int *fat;$/;"	m	struct:PFAT_Instance	file:
+faultcode_t	include/geekos/paging.h	/^} faultcode_t;$/;"	t	typeref:struct:__anon3
+fileAllocationLength	include/geekos/pfat.h	/^    int fileAllocationLength;	\/* length of allocation table *\/$/;"	m	struct:__anon8
+fileAllocationOffset	include/geekos/pfat.h	/^    int fileAllocationOffset;	\/* where is the file allocation table *\/$/;"	m	struct:__anon8
+fileDataCache	src/geekos/pfat.c	/^    char *fileDataCache;		 \/* File data cache *\/$/;"	m	struct:PFAT_File	file:
+fileList	src/geekos/pfat.c	/^    struct PFAT_File_List fileList;$/;"	m	struct:PFAT_Instance	typeref:struct:PFAT_Instance::PFAT_File_List	file:
+fileName	include/geekos/pfat.h	/^    char fileName[8+4];$/;"	m	struct:__anon9
+fileName	include/geekos/vfs.h	/^    char *fileName;		 \/* Name of paging file. *\/$/;"	m	struct:Paging_Device
+filePos	include/geekos/vfs.h	/^    ulong_t filePos;		 \/* Current position in the file. *\/$/;"	m	struct:File
+fileSize	include/geekos/elf.h	/^    unsigned  int   fileSize;$/;"	m	struct:__anon7
+fileSize	include/geekos/pfat.h	/^    int fileSize;$/;"	m	struct:__anon9
+firstBlock	include/geekos/pfat.h	/^    int firstBlock;$/;"	m	struct:__anon9
+flags	include/geekos/elf.h	/^    unsigned  int	flags;$/;"	m	struct:__anon6
+flags	include/geekos/elf.h	/^    unsigned  int   flags;$/;"	m	struct:__anon7
+flags	include/geekos/mem.h	/^    unsigned flags;			 \/* Flags indicating state of page *\/$/;"	m	struct:Page
+flags	include/geekos/paging.h	/^    uint_t flags:4;$/;"	m	struct:__anon1
+flags	include/geekos/paging.h	/^    uint_t flags:4;$/;"	m	struct:__anon2
+flags	src/common/fmtout.c	/^enum flags {$/;"	g	file:
+flags	src/user/shell.c	/^	int flags;$/;"	m	struct:Process	file:
+flink	src/geekos/bget.c	/^    struct bfhead *flink;	      \/* Forward link *\/$/;"	m	struct:qlinks	typeref:struct:qlinks::bfhead	file:
+format_int	src/common/fmtout.c	/^format_int(struct Output_Sink *q, uintmax_t val, enum flags flags,$/;"	f	file:
+freelist	src/geekos/bget.c	/^static struct bfhead freelist = {     \/* List of free buffers *\/$/;"	v	typeref:struct:bfhead	file:
+fs	include/geekos/int.h	/^    uint_t fs;$/;"	m	struct:Interrupt_State
+fs	include/geekos/tss.h	/^    ushort_t fs;$/;"	m	struct:TSS
+fsData	include/geekos/vfs.h	/^    void *fsData;		 \/* For use by the filesystem implementation. *\/$/;"	m	struct:File
+fsData	include/geekos/vfs.h	/^    void *fsData;		 \/* For use by the filesystem implementation. *\/$/;"	m	struct:Mount_Point
+fsName	src/geekos/vfs.c	/^    char fsName[VFS_MAX_FS_NAME_LEN + 1];$/;"	m	struct:Filesystem	file:
+fsinfo	src/geekos/pfat.c	/^    bootSector fsinfo;$/;"	m	struct:PFAT_Instance	file:
+fstype	include/geekos/fileio.h	/^    char fstype[VFS_MAX_FS_NAME_LEN+1];	\/* Filesystem type: e.g., "gosfs". *\/$/;"	m	struct:VFS_Mount_Request
+g_Quantum	src/geekos/timer.c	/^int g_Quantum = DEFAULT_MAX_TICKS;$/;"	v
+g_currentThread	src/geekos/kthread.c	/^struct Kernel_Thread* g_currentThread;$/;"	v	typeref:struct:Kernel_Thread
+g_entryPointTableEnd	src/geekos/lowlevel.asm	/^g_entryPointTableEnd:$/;"	l
+g_entryPointTableStart	src/geekos/lowlevel.asm	/^g_entryPointTableStart:$/;"	l
+g_freePageCount	src/geekos/mem.c	/^uint_t g_freePageCount = 0;$/;"	v
+g_handlerSizeErr	src/geekos/lowlevel.asm	/^g_handlerSizeErr: dd (After_Err - Before_Err)$/;"	d
+g_handlerSizeNoErr	src/geekos/lowlevel.asm	/^g_handlerSizeNoErr: dd (After_No_Err - Before_No_Err)$/;"	d
+g_interruptTable	src/geekos/idt.c	/^Interrupt_Handler g_interruptTable[ NUM_IDT_ENTRIES ];$/;"	v
+g_needReschedule	src/geekos/kthread.c	/^int g_needReschedule;$/;"	v
+g_numSyscalls	src/geekos/syscall.c	/^const int g_numSyscalls = sizeof(g_syscallTable) \/ sizeof(Syscall);$/;"	v
+g_numTicks	src/geekos/timer.c	/^volatile ulong_t g_numTicks;$/;"	v
+g_pageList	src/geekos/mem.c	/^struct Page* g_pageList;$/;"	v	typeref:struct:Page
+g_preemptionDisabled	src/geekos/kthread.c	/^volatile int g_preemptionDisabled;$/;"	v
+g_syscallTable	src/geekos/syscall.c	/^const Syscall g_syscallTable[] = {$/;"	v
+gapLengthCode	src/geekos/floppy.c	/^    int gapLengthCode;$/;"	m	struct:Floppy_Parameters	file:
+globalPage	include/geekos/paging.h	/^    uint_t globalPage:1;$/;"	m	struct:__anon1
+globalPage	include/geekos/paging.h	/^    uint_t globalPage:1;$/;"	m	struct:__anon2
+granularity	include/geekos/segment.h	/^    uint_t granularity : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+gs	include/geekos/int.h	/^    uint_t gs;$/;"	m	struct:Interrupt_State
+gs	include/geekos/tss.h	/^    ushort_t gs;$/;"	m	struct:TSS
+head	src/geekos/bootsect.asm	/^head: dw 0$/;"	d
+head	src/geekos/fd_boot.asm	/^head: dw 0$/;"	d
+heads	src/geekos/floppy.c	/^    int heads;$/;"	m	struct:Floppy_Parameters	file:
+hidden	include/geekos/pfat.h	/^    char hidden:1;$/;"	m	struct:__anon9
+id	include/geekos/timer.h	/^    int id;				 \/* unqiue id for this timer even *\/$/;"	m	struct:__anon10
+ideDebug	src/geekos/ide.c	/^int ideDebug = 0;$/;"	v
+ideDisk	src/geekos/ide.c	/^} ideDisk;$/;"	t	typeref:struct:__anon12	file:
+ident	include/geekos/elf.h	/^    unsigned  char	ident[16];$/;"	m	struct:__anon6
+ig	include/geekos/idt.h	/^    struct Interrupt_Gate ig;$/;"	m	union:IDT_Descriptor	typeref:struct:IDT_Descriptor::Interrupt_Gate
+inUse	include/geekos/blockdev.h	/^    bool inUse;$/;"	m	struct:Block_Device
+infile	src/user/shell.c	/^	char infile[BUFSIZE+1];$/;"	m	struct:Process	file:
+intNum	include/geekos/int.h	/^    uint_t intNum;$/;"	m	struct:Interrupt_State
+intmax_t	src/common/fmtout.c	/^typedef long intmax_t;$/;"	t	file:
+ioMapBase	include/geekos/tss.h	/^    ushort_t ioMapBase;$/;"	m	struct:TSS
+isDirectory	include/geekos/fileio.h	/^    int isDirectory:1;$/;"	m	struct:VFS_File_Stat
+isSetuid	include/geekos/fileio.h	/^    int isSetuid:1;$/;"	m	struct:VFS_File_Stat
+joinQueue	include/geekos/kthread.h	/^    struct Thread_Queue joinQueue;$/;"	m	struct:Kernel_Thread	typeref:struct:Kernel_Thread::Thread_Queue
+kernelInfo	include/geekos/paging.h	/^    uint_t kernelInfo:3;$/;"	m	struct:__anon1
+kernelInfo	include/geekos/paging.h	/^    uint_t kernelInfo:3;$/;"	m	struct:__anon2
+kernelSize	include/geekos/pfat.h	/^    short kernelSize;		\/* size in sectors of kernel to run *\/$/;"	m	struct:__anon8
+kernelSize	src/geekos/bootsect.asm	/^kernelSize:$/;"	l
+kernelSize	src/geekos/fd_boot.asm	/^kernelSize:$/;"	l
+kernelStart	include/geekos/pfat.h	/^    short kernelStart;		\/* first sector of kernel to run *\/$/;"	m	struct:__anon8
+kernelStart	src/geekos/bootsect.asm	/^kernelStart:$/;"	l
+kernelStart	src/geekos/fd_boot.asm	/^kernelStart:$/;"	l
+kpde	src/geekos/paging.c	/^pde_t* kpde;$/;"	v
+largePages	include/geekos/paging.h	/^    uint_t largePages:1;$/;"	m	struct:__anon1
+ldt	include/geekos/tss.h	/^    ushort_t ldt;$/;"	m	struct:TSS
+ldt	include/geekos/user.h	/^    struct Segment_Descriptor ldt[NUM_USER_LDT_ENTRIES];$/;"	m	struct:User_Context	typeref:struct:User_Context::Segment_Descriptor
+ldtDescriptor	include/geekos/user.h	/^    struct Segment_Descriptor* ldtDescriptor;$/;"	m	struct:User_Context	typeref:struct:User_Context::Segment_Descriptor
+ldtSelector	include/geekos/user.h	/^    ushort_t ldtSelector;$/;"	m	struct:User_Context
+lengthInFile	include/geekos/elf.h	/^    ulong_t lengthInFile;	 \/* Length of segment data in executable file *\/$/;"	m	struct:Exe_Segment
+link	include/geekos/tss.h	/^    ushort_t link;$/;"	m	struct:TSS
+load_kernel	src/geekos/bootsect.asm	/^load_kernel:$/;"	l
+load_kernel	src/geekos/fd_boot.asm	/^load_kernel:$/;"	l
+load_setup	src/geekos/bootsect.asm	/^load_setup:$/;"	l
+load_setup	src/geekos/fd_boot.asm	/^load_setup:$/;"	l
+lock	src/geekos/pfat.c	/^    struct Mutex lock;			 \/* Synchronize concurrent accesses *\/$/;"	m	struct:PFAT_File	typeref:struct:PFAT_File::Mutex	file:
+lock	src/geekos/pfat.c	/^    struct Mutex lock;$/;"	m	struct:PFAT_Instance	typeref:struct:PFAT_Instance::Mutex	file:
+machine	include/geekos/elf.h	/^    unsigned  short	machine;$/;"	m	struct:__anon6
+magic	include/geekos/pfat.h	/^    int magic;			\/* id to tell the type of filesystem *\/$/;"	m	struct:__anon8
+main	src/geekos/bget.c	/^int main()$/;"	f
+main	src/tools/buildFat.c	/^int main(int argc, char *argv[])$/;"	f
+main	src/user/shell.c	/^int main(int argc, char **argv)$/;"	f
+main	src/user/workload.c	/^int main(int argc, char **argv)$/;"	f
+max_sector	src/geekos/fd_boot.asm	/^max_sector: dw 0$/;"	d
+memSize	include/geekos/elf.h	/^    unsigned  int   memSize;$/;"	m	struct:__anon7
+memSizeKB	include/geekos/bootinfo.h	/^    int memSizeKB;	 \/* number of KB, as reported by int 15h *\/$/;"	m	struct:Boot_Info
+mem_size_kbytes	src/geekos/setup.asm	/^mem_size_kbytes: dw 0$/;"	d
+memcmp	src/common/string.c	/^int memcmp(const void *s1_, const void *s2_, size_t n)$/;"	f
+memcpy	src/common/string.c	/^void* memcpy(void *dst, const void* src, size_t n)$/;"	f
+memmove	src/common/memmove.c	/^memmove(void *d, const void *s, size_t n)$/;"	f
+memory	include/geekos/user.h	/^    char* memory;$/;"	m	struct:User_Context
+memset	src/common/string.c	/^void* memset(void* s, int c, size_t n)$/;"	f
+mode	include/geekos/vfs.h	/^    int mode;			 \/* Mode (read vs. write). *\/$/;"	m	struct:File
+mountPoint	include/geekos/vfs.h	/^    struct Mount_Point *mountPoint; \/* Mounted filesystem file is part of. *\/$/;"	m	struct:File	typeref:struct:File::Mount_Point
+n	src/common/string.c	/^    size_t n, size;$/;"	m	struct:String_Output_Sink	file:
+name	include/geekos/blockdev.h	/^    char name[BLOCKDEV_MAX_NAME_LEN];$/;"	m	struct:Block_Device
+name	include/geekos/fileio.h	/^    char name[1024];$/;"	m	struct:VFS_Dir_Entry
+next	src/geekos/bget.c	/^static ulong_t int next = 1;$/;"	v	file:
+nextEventID	src/geekos/timer.c	/^static int nextEventID;$/;"	v	file:
+numArgs	src/geekos/screen.c	/^    int numArgs;$/;"	m	struct:Console_State	file:
+numBlocks	src/geekos/pfat.c	/^    ulong_t numBlocks;			 \/* Number of blocks used by file *\/$/;"	m	struct:PFAT_File	file:
+numCylinders	src/geekos/bootsect.asm	/^numCylinders:	dw 0$/;"	d
+numDrives	src/geekos/ide.c	/^static int numDrives;$/;"	v	file:
+numHeads	src/geekos/bootsect.asm	/^numHeads:		dw HEADS$/;"	d
+numSectors	include/geekos/vfs.h	/^    ulong_t numSectors;		 \/* Number of sectors in paging file. *\/$/;"	m	struct:Paging_Device
+numSegments	include/geekos/elf.h	/^    int numSegments;		\/* Number of segments contained in the executable *\/$/;"	m	struct:Exe_Format
+numTicks	include/geekos/kthread.h	/^    volatile ulong_t numTicks;		 \/* offset 4 *\/$/;"	m	struct:Kernel_Thread
+num_BytesPerSector	src/geekos/ide.c	/^    short num_BytesPerSector;$/;"	m	struct:__anon12	file:
+num_Cylinders	src/geekos/ide.c	/^    short num_Cylinders;$/;"	m	struct:__anon12	file:
+num_Heads	src/geekos/ide.c	/^    short num_Heads;$/;"	m	struct:__anon12	file:
+num_SectorsPerTrack	src/geekos/ide.c	/^    short num_SectorsPerTrack;$/;"	m	struct:__anon12	file:
+num_retries	src/geekos/bootsect.asm	/^num_retries: db 0$/;"	d
+num_retries	src/geekos/fd_boot.asm	/^num_retries: db 0$/;"	d
+numdget	src/geekos/bget.c	/^static long numdget = 0, numdrel = 0; \/* Number of direct gets and rels *\/$/;"	v	file:
+numdrel	src/geekos/bget.c	/^static long numdget = 0, numdrel = 0; \/* Number of direct gets and rels *\/$/;"	v	file:
+numget	src/geekos/bget.c	/^static long numget = 0, numrel = 0;   \/* Number of bget() and brel() calls *\/$/;"	v	file:
+numpblk	src/geekos/bget.c	/^static long numpblk = 0;	      \/* Number of pool blocks *\/$/;"	v	file:
+numpget	src/geekos/bget.c	/^static long numpget = 0, numprel = 0; \/* Number of block gets and rels *\/$/;"	v	file:
+numprel	src/geekos/bget.c	/^static long numpget = 0, numprel = 0; \/* Number of block gets and rels *\/$/;"	v	file:
+numrel	src/geekos/bget.c	/^static long numget = 0, numrel = 0;   \/* Number of bget() and brel() calls *\/$/;"	v	file:
+o	src/common/string.c	/^    struct Output_Sink o;$/;"	m	struct:String_Output_Sink	typeref:struct:String_Output_Sink::Output_Sink	file:
+offset	include/geekos/elf.h	/^    unsigned  int   offset;$/;"	m	struct:__anon7
+offsetHigh	include/geekos/idt.h	/^    ushort_t offsetHigh;$/;"	m	struct:Interrupt_Gate
+offsetInFile	include/geekos/elf.h	/^    ulong_t offsetInFile;	 \/* Offset of segment in executable file *\/$/;"	m	struct:Exe_Segment
+offsetLow	include/geekos/idt.h	/^    ushort_t offsetLow;$/;"	m	struct:Interrupt_Gate
+ops	include/geekos/blockdev.h	/^    struct Block_Device_Ops *ops;$/;"	m	struct:Block_Device	typeref:struct:Block_Device::Block_Device_Ops
+ops	include/geekos/vfs.h	/^    struct File_Ops *ops;	 \/* Operations that can be performed on the file. *\/$/;"	m	struct:File	typeref:struct:File::File_Ops
+ops	include/geekos/vfs.h	/^    struct Mount_Point_Ops *ops; \/* Operations that can be performed on the mount. *\/$/;"	m	struct:Mount_Point	typeref:struct:Mount_Point::Mount_Point_Ops
+ops	src/geekos/vfs.c	/^    struct Filesystem_Ops *ops;$/;"	m	struct:Filesystem	typeref:struct:Filesystem::Filesystem_Ops	file:
+origTicks	include/geekos/timer.h	/^    int origTicks;$/;"	m	struct:__anon10
+outfile	src/user/shell.c	/^	char outfile[BUFSIZE+1];$/;"	m	struct:Process	file:
+owner	include/geekos/kthread.h	/^    struct Kernel_Thread* owner;$/;"	m	struct:Kernel_Thread	typeref:struct:Kernel_Thread::Kernel_Thread
+owner	include/geekos/synch.h	/^    struct Kernel_Thread* owner;$/;"	m	struct:Mutex	typeref:struct:Mutex::Kernel_Thread
+paddr	include/geekos/elf.h	/^    unsigned  int   paddr;$/;"	m	struct:__anon7
+pageBaseAddr	include/geekos/paging.h	/^    uint_t pageBaseAddr:20;$/;"	m	struct:__anon2
+pageDir	include/geekos/user.h	/^    pde_t *pageDir;$/;"	m	struct:User_Context
+pageTableBaseAddr	include/geekos/paging.h	/^    uint_t pageTableBaseAddr:20;$/;"	m	struct:__anon1
+pagein	src/geekos/paging.c	/^int pagein = 0;$/;"	v
+pageout	src/geekos/paging.c	/^int pageout = 0;$/;"	v
+paging_file	src/geekos/paging.c	/^char* paging_file;$/;"	v
+params	src/geekos/floppy.c	/^    struct Floppy_Parameters *params;$/;"	m	struct:Floppy_Drive	typeref:struct:Floppy_Drive::Floppy_Parameters	file:
+pathPrefix	include/geekos/vfs.h	/^    char *pathPrefix;		 \/* Path prefix where fs is mounted. *\/$/;"	m	struct:Mount_Point
+pde_t	include/geekos/paging.h	/^} pde_t;$/;"	t	typeref:struct:__anon1
+pendingTimerEvents	src/geekos/timer.c	/^timerEvent pendingTimerEvents[MAX_TIMER_EVENTS];$/;"	v
+permission	include/geekos/fileio.h	/^    uint_t permission:4;$/;"	m	struct:VFS_ACL_Entry
+phentsize	include/geekos/elf.h	/^    unsigned  short	phentsize;$/;"	m	struct:__anon6
+phnum	include/geekos/elf.h	/^    unsigned  short	phnum;$/;"	m	struct:__anon6
+phoff	include/geekos/elf.h	/^    unsigned  int	phoff;$/;"	m	struct:__anon6
+pid	include/geekos/kthread.h	/^    int pid;$/;"	m	struct:Kernel_Thread
+pid	src/user/shell.c	/^	int pid;$/;"	m	struct:Process	file:
+pipefd	src/user/shell.c	/^	int pipefd;$/;"	m	struct:Process	file:
+policy	src/geekos/kthread.c	/^int policy = 0;$/;"	v
+pool_len	src/geekos/bget.c	/^static bufsize pool_len = 0;	      \/* 0: no bpool calls have been made$/;"	v	file:
+pop	src/geekos/lowlevel.asm	/^	pop	ds$/;"	d
+prefix	include/geekos/fileio.h	/^    char prefix[VFS_MAX_PATH_LEN+1];	\/* Directory prefix to mount on: e.g., "\/d". *\/$/;"	m	struct:VFS_Mount_Request
+present	include/geekos/idt.h	/^    unsigned present : 1;$/;"	m	struct:Interrupt_Gate
+present	include/geekos/paging.h	/^    uint_t present:1;$/;"	m	struct:__anon1
+present	include/geekos/paging.h	/^    uint_t present:1;$/;"	m	struct:__anon2
+present	include/geekos/segment.h	/^    uint_t present     : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+prevfree	src/geekos/bget.c	/^    bufsize prevfree;		      \/* Relative link back to previous$/;"	m	struct:bhead	file:
+priority	include/geekos/kthread.h	/^    int priority;$/;"	m	struct:Kernel_Thread
+program	src/user/shell.c	/^	char program[BUFSIZE+1];$/;"	m	struct:Process	file:
+programHeader	include/geekos/elf.h	/^} programHeader;$/;"	t	typeref:struct:__anon7
+protFlags	include/geekos/elf.h	/^    int protFlags;		 \/* VM protection flags; combination of VM_READ,VM_WRITE,VM_EXEC *\/$/;"	m	struct:Exe_Segment
+protect	src/geekos/bget.c	/^static int protect = 0; 	      \/* Disable compaction during bgetr() *\/$/;"	v	file:
+protectionViolation	include/geekos/paging.h	/^    uint_t protectionViolation:1;$/;"	m	struct:__anon3
+pteAttribute	include/geekos/paging.h	/^    uint_t pteAttribute:1;$/;"	m	struct:__anon2
+pte_t	include/geekos/paging.h	/^} pte_t;$/;"	t	typeref:struct:__anon2
+push	src/geekos/lowlevel.asm	/^	push	ds$/;"	d
+ql	src/geekos/bget.c	/^    struct qlinks ql;		      \/* Links on free list *\/$/;"	m	struct:bfhead	typeref:struct:bfhead::qlinks	file:
+qlinks	src/geekos/bget.c	/^struct qlinks {$/;"	s	file:
+rand	src/geekos/bget.c	/^int rand()$/;"	f
+rank_char	src/common/fmtout.c	/^  rank_char	= -2,$/;"	e	enum:ranks	file:
+rank_int	src/common/fmtout.c	/^  rank_int 	= 0,$/;"	e	enum:ranks	file:
+rank_long	src/common/fmtout.c	/^  rank_long	= 1,$/;"	e	enum:ranks	file:
+rank_short	src/common/fmtout.c	/^  rank_short	= -1,$/;"	e	enum:ranks	file:
+ranks	src/common/fmtout.c	/^enum ranks {$/;"	g	file:
+readDone	src/geekos/bootsect.asm	/^readDone:$/;"	l
+readDriveConfig	src/geekos/ide.c	/^static int readDriveConfig(int drive)$/;"	f	file:
+readOnly	include/geekos/pfat.h	/^    char readOnly:1;$/;"	m	struct:__anon9
+readRetry	src/geekos/bootsect.asm	/^readRetry:$/;"	l
+readfd	src/user/shell.c	/^	int readfd, writefd;$/;"	m	struct:Process	file:
+refCount	include/geekos/kthread.h	/^    int refCount;$/;"	m	struct:Kernel_Thread
+refCount	include/geekos/user.h	/^    int refCount;$/;"	m	struct:User_Context
+relfcn	src/geekos/bget.c	/^static void (*relfcn) _((void *buf)) = NULL;$/;"	v	file:
+requestQueue	include/geekos/blockdev.h	/^    struct Block_Request_List *requestQueue;$/;"	m	struct:Block_Device	typeref:struct:Block_Device::Block_Request_List
+reserved	include/geekos/idt.h	/^    unsigned reserved : 5;$/;"	m	struct:Interrupt_Gate
+reserved	include/geekos/paging.h	/^    uint_t reserved:1;$/;"	m	struct:__anon1
+reserved	include/geekos/paging.h	/^    uint_t reserved:28;$/;"	m	struct:__anon3
+reserved	include/geekos/segment.h	/^    uint_t reserved    : 1  PACKED ;  \/* set to zero *\/$/;"	m	struct:Segment_Descriptor
+reserved1	include/geekos/tss.h	/^    ushort_t reserved1;$/;"	m	struct:TSS
+reserved10	include/geekos/tss.h	/^    ushort_t reserved10;$/;"	m	struct:TSS
+reserved11	include/geekos/tss.h	/^    ushort_t reserved11;$/;"	m	struct:TSS
+reserved12	include/geekos/tss.h	/^    uint_t reserved12 : 15;$/;"	m	struct:TSS
+reserved2	include/geekos/tss.h	/^    ushort_t reserved2;$/;"	m	struct:TSS
+reserved3	include/geekos/tss.h	/^    ushort_t reserved3;$/;"	m	struct:TSS
+reserved4	include/geekos/tss.h	/^    ushort_t reserved4;$/;"	m	struct:TSS
+reserved5	include/geekos/tss.h	/^    ushort_t reserved5;$/;"	m	struct:TSS
+reserved6	include/geekos/tss.h	/^    ushort_t reserved6;$/;"	m	struct:TSS
+reserved7	include/geekos/tss.h	/^    ushort_t reserved7;$/;"	m	struct:TSS
+reserved8	include/geekos/tss.h	/^    ushort_t reserved8;$/;"	m	struct:TSS
+reserved9	include/geekos/tss.h	/^    ushort_t reserved9;$/;"	m	struct:TSS
+reservedBitFault	include/geekos/paging.h	/^    uint_t reservedBitFault:1;$/;"	m	struct:__anon3
+rootDir	src/geekos/pfat.c	/^    directoryEntry *rootDir;$/;"	m	struct:PFAT_Instance	file:
+rootDirEntry	src/geekos/pfat.c	/^    directoryEntry rootDirEntry;$/;"	m	struct:PFAT_Instance	file:
+rootDirectoryCount	include/geekos/pfat.h	/^    int rootDirectoryCount;	\/* number of items in the directory *\/$/;"	m	struct:__anon8
+rootDirectoryOffset	include/geekos/pfat.h	/^    int rootDirectoryOffset;	\/* offset in sectors of root directory *\/$/;"	m	struct:__anon8
+roundToNextBlock	src/tools/buildFat.c	/^int roundToNextBlock(int x)$/;"	f
+row	src/geekos/screen.c	/^    int row, col;$/;"	m	struct:Console_State	file:
+s	src/common/string.c	/^    char *s;$/;"	m	struct:String_Output_Sink	file:
+s_GDT	src/geekos/gdt.c	/^static struct Segment_Descriptor s_GDT[ NUM_GDT_ENTRIES ];$/;"	v	typeref:struct:Segment_Descriptor	file:
+s_IDT	src/geekos/idt.c	/^static union IDT_Descriptor s_IDT[ NUM_IDT_ENTRIES ];$/;"	v	typeref:union:IDT_Descriptor	file:
+s_allThreadList	src/geekos/kthread.c	/^static struct All_Thread_List s_allThreadList;$/;"	v	typeref:struct:All_Thread_List	file:
+s_allocated	src/geekos/dma.c	/^static uchar_t s_allocated;	 \/*!< Which channels have been allocated. *\/$/;"	v	file:
+s_ansiToVgaColor	src/geekos/screen.c	/^static const uchar_t s_ansiToVgaColor[] = {$/;"	v	file:
+s_blockdevLock	src/geekos/blockdev.c	/^static struct Mutex s_blockdevLock;$/;"	v	typeref:struct:Mutex	file:
+s_cons	src/geekos/screen.c	/^static struct Console_State s_cons;$/;"	v	typeref:struct:Console_State	file:
+s_deviceList	src/geekos/blockdev.c	/^static struct Block_Device_List s_deviceList;$/;"	v	typeref:struct:Block_Device_List	file:
+s_dmaPageRegisterList	src/geekos/dma.c	/^static const uchar_t s_dmaPageRegisterList[] = {$/;"	v	file:
+s_driveTable	src/geekos/floppy.c	/^struct Floppy_Drive s_driveTable[2];$/;"	v	typeref:struct:Floppy_Drive
+s_echo	src/libc/conio.c	/^static bool s_echo = true;$/;"	v	file:
+s_filesystemList	src/geekos/vfs.c	/^static struct Filesystem_List s_filesystemList;$/;"	v	typeref:struct:Filesystem_List	file:
+s_floppyDeviceOps	src/geekos/floppy.c	/^static struct Block_Device_Ops s_floppyDeviceOps = {$/;"	v	typeref:struct:Block_Device_Ops	file:
+s_floppyInterruptWaitQueue	src/geekos/floppy.c	/^static struct Thread_Queue s_floppyInterruptWaitQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+s_floppyParamsTable	src/geekos/floppy.c	/^static struct Floppy_Parameters s_floppyParamsTable[] = {$/;"	v	typeref:struct:Floppy_Parameters	file:
+s_floppyRequestQueue	src/geekos/floppy.c	/^static struct Block_Request_List s_floppyRequestQueue;$/;"	v	typeref:struct:Block_Request_List	file:
+s_floppyWaitQueue	src/geekos/floppy.c	/^static struct Thread_Queue s_floppyWaitQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+s_freeList	src/geekos/mem.c	/^static struct Page_List s_freeList;$/;"	v	typeref:struct:Page_List	file:
+s_graveyardQueue	src/geekos/kthread.c	/^static struct Thread_Queue s_graveyardQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+s_ideDeviceOps	src/geekos/ide.c	/^static struct Block_Device_Ops s_ideDeviceOps = {$/;"	v	typeref:struct:Block_Device_Ops	file:
+s_ideRequestQueue	src/geekos/ide.c	/^struct Block_Request_List s_ideRequestQueue;$/;"	v	typeref:struct:Block_Request_List
+s_ideWaitQueue	src/geekos/ide.c	/^struct Thread_Queue s_ideWaitQueue;$/;"	v	typeref:struct:Thread_Queue
+s_irqMask	src/geekos/irq.c	/^static ushort_t s_irqMask = 0xfffb;$/;"	v	file:
+s_mountPointList	src/geekos/vfs.c	/^static struct Mount_Point_List s_mountPointList;$/;"	v	typeref:struct:Mount_Point_List	file:
+s_numAllocated	src/geekos/gdt.c	/^static int s_numAllocated = 0;$/;"	v	file:
+s_numPages	src/geekos/mem.c	/^int unsigned s_numPages;$/;"	v
+s_outputSink	src/geekos/screen.c	/^static struct Output_Sink s_outputSink = { &Print_Emit, &Print_Finish };$/;"	v	typeref:struct:Output_Sink	file:
+s_outputSink	src/libc/conio.c	/^static struct Output_Sink s_outputSink = { &Print_Emit, &Print_Finish };$/;"	v	typeref:struct:Output_Sink	file:
+s_pagingDevice	src/geekos/vfs.c	/^static struct Paging_Device *s_pagingDevice;$/;"	v	typeref:struct:Paging_Device	file:
+s_pfatDirOps	src/geekos/pfat.c	/^static struct File_Ops s_pfatDirOps = {$/;"	v	typeref:struct:File_Ops	file:
+s_pfatFileOps	src/geekos/pfat.c	/^static struct File_Ops s_pfatFileOps = {$/;"	v	typeref:struct:File_Ops	file:
+s_pfatFilesystemOps	src/geekos/pfat.c	/^static struct Filesystem_Ops s_pfatFilesystemOps = {$/;"	v	typeref:struct:Filesystem_Ops	file:
+s_pfatMountPointOps	src/geekos/pfat.c	/^struct Mount_Point_Ops s_pfatMountPointOps = {$/;"	v	typeref:struct:Mount_Point_Ops
+s_queue	src/geekos/keyboard.c	/^static Keycode s_queue[QUEUE_SIZE];$/;"	v	file:
+s_queueHead	src/geekos/keyboard.c	/^static int s_queueHead, s_queueTail;$/;"	v	file:
+s_queueTail	src/geekos/keyboard.c	/^static int s_queueHead, s_queueTail;$/;"	v	file:
+s_reaperWaitQueue	src/geekos/kthread.c	/^static struct Thread_Queue s_reaperWaitQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+s_runQueue	src/geekos/kthread.c	/^static struct Thread_Queue s_runQueue[MAX_QUEUE_LEVEL];$/;"	v	typeref:struct:Thread_Queue	file:
+s_scanTableNoShift	src/geekos/keyboard.c	/^static const Keycode s_scanTableNoShift[] = {$/;"	v	file:
+s_scanTableWithShift	src/geekos/keyboard.c	/^static const Keycode s_scanTableWithShift[] = {$/;"	v	file:
+s_shiftState	src/geekos/keyboard.c	/^static unsigned s_shiftState = 0;$/;"	v	file:
+s_spinCountPerTick	src/geekos/timer.c	/^static int s_spinCountPerTick;$/;"	v	file:
+s_theTSS	src/geekos/tss.c	/^static struct TSS s_theTSS;$/;"	v	typeref:struct:TSS	file:
+s_tlocalDestructors	src/geekos/kthread.c	/^static tlocal_destructor_t s_tlocalDestructors[MAX_TLOCAL_KEYS];$/;"	v	file:
+s_tlocalKeyCounter	src/geekos/kthread.c	/^static unsigned int s_tlocalKeyCounter = 0;$/;"	v	file:
+s_transferBuf	src/geekos/floppy.c	/^static uchar_t *s_transferBuf;$/;"	v	file:
+s_tssDesc	src/geekos/tss.c	/^static struct Segment_Descriptor *s_tssDesc;$/;"	v	typeref:struct:Segment_Descriptor	file:
+s_tssSelector	src/geekos/tss.c	/^static ushort_t s_tssSelector;$/;"	v	file:
+s_vfsLock	src/geekos/vfs.c	/^static struct Mutex s_vfsLock;$/;"	v	typeref:struct:Mutex	file:
+s_waitQueue	src/geekos/keyboard.c	/^static struct Thread_Queue s_waitQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+saveCol	src/geekos/screen.c	/^    int saveRow, saveCol;$/;"	m	struct:Console_State	file:
+saveRow	src/geekos/screen.c	/^    int saveRow, saveCol;$/;"	m	struct:Console_State	file:
+sec	src/geekos/bootsect.asm	/^sec: dw 0$/;"	d
+sec	src/geekos/fd_boot.asm	/^sec: dw 0$/;"	d
+sec_count	src/geekos/bootsect.asm	/^sec_count: dw 0$/;"	d
+sec_count	src/geekos/fd_boot.asm	/^sec_count: dw 0$/;"	d
+sectorSizeCode	src/geekos/floppy.c	/^    int sectorSizeCode;$/;"	m	struct:Floppy_Parameters	file:
+sectors	src/geekos/floppy.c	/^    int sectors;$/;"	m	struct:Floppy_Parameters	file:
+sectorsPerTrack	src/geekos/bootsect.asm	/^sectorsPerTrack:	dw SECTORS_PER_TRACK$/;"	d
+segmentList	include/geekos/elf.h	/^    struct Exe_Segment segmentList[EXE_MAX_SEGMENTS]; \/* Definition of segments *\/$/;"	m	struct:Exe_Format	typeref:struct:Exe_Format::Exe_Segment
+segmentSelector	include/geekos/idt.h	/^    ushort_t segmentSelector;$/;"	m	struct:Interrupt_Gate
+sem	src/geekos/syscall.c	/^struct semaphore** sem = NULL;$/;"	v	typeref:struct:semaphore
+sem_name	include/geekos/kthread.h	/^	char sem_name[25];$/;"	m	struct:semaphore
+semaphore	include/geekos/kthread.h	/^struct semaphore{$/;"	s
+setupSize	include/geekos/pfat.h	/^    short setupSize;		\/* size in sectors of secondary loader *\/$/;"	m	struct:__anon8
+setupSize	src/geekos/bootsect.asm	/^setupSize:$/;"	l
+setupSize	src/geekos/fd_boot.asm	/^setupSize:$/;"	l
+setupStart	include/geekos/pfat.h	/^    short setupStart;		\/* first sector of secondary loader *\/$/;"	m	struct:__anon8
+setupStart	src/geekos/bootsect.asm	/^setupStart:		$/;"	l
+setupStart	src/geekos/fd_boot.asm	/^setupStart:		$/;"	l
+setup_32	src/geekos/setup.asm	/^setup_32:$/;"	l
+shentsize	include/geekos/elf.h	/^    unsigned  short	shentsize;$/;"	m	struct:__anon6
+shnum	include/geekos/elf.h	/^    unsigned  short	shnum;$/;"	m	struct:__anon6
+shstrndx	include/geekos/elf.h	/^    unsigned  short	shstrndx;$/;"	m	struct:__anon6
+signature	include/geekos/idt.h	/^    unsigned signature : 8;$/;"	m	struct:Interrupt_Gate
+size	include/geekos/fileio.h	/^    int size;$/;"	m	struct:VFS_File_Stat
+size	include/geekos/user.h	/^    ulong_t size;$/;"	m	struct:User_Context
+size	src/common/string.c	/^    size_t n, size;$/;"	m	struct:String_Output_Sink	file:
+sizeHigh	include/geekos/segment.h	/^    uint_t sizeHigh    : 4  PACKED ;$/;"	m	struct:Segment_Descriptor
+sizeInMemory	include/geekos/elf.h	/^    ulong_t sizeInMemory;	 \/* Size of segment in memory *\/$/;"	m	struct:Exe_Segment
+snprintf	src/common/string.c	/^int snprintf(char *s, size_t size, const char *fmt, ...)$/;"	f
+sphoff	include/geekos/elf.h	/^    unsigned  int	sphoff;$/;"	m	struct:__anon6
+srand	src/geekos/bget.c	/^void srand(seed)$/;"	f
+ss	include/geekos/tss.h	/^    ushort_t ss;$/;"	m	struct:TSS
+ss0	include/geekos/tss.h	/^    ushort_t ss0;$/;"	m	struct:TSS
+ss1	include/geekos/tss.h	/^    ushort_t ss1;$/;"	m	struct:TSS
+ss2	include/geekos/tss.h	/^    ushort_t ss2;$/;"	m	struct:TSS
+ssUser	include/geekos/int.h	/^    uint_t ssUser;$/;"	m	struct:User_Interrupt_State
+stackPage	include/geekos/kthread.h	/^    void* stackPage;$/;"	m	struct:Kernel_Thread
+stackPointerAddr	include/geekos/user.h	/^    ulong_t stackPointerAddr;$/;"	m	struct:User_Context
+startAddress	include/geekos/elf.h	/^    ulong_t startAddress;	 \/* Start address of segment in user memory *\/$/;"	m	struct:Exe_Segment
+startSector	include/geekos/vfs.h	/^    ulong_t startSector;	 \/* Start sector of paging file. *\/$/;"	m	struct:Paging_Device
+start_setup	src/geekos/setup.asm	/^start_setup:$/;"	l
+state	include/geekos/blockdev.h	/^    volatile enum Request_State state;$/;"	m	struct:Block_Request	typeref:enum:Block_Request::Request_State
+state	include/geekos/int.h	/^    struct Interrupt_State state;$/;"	m	struct:User_Interrupt_State	typeref:struct:User_Interrupt_State::Interrupt_State
+state	include/geekos/synch.h	/^    int state;$/;"	m	struct:Mutex
+state	src/geekos/screen.c	/^    enum State state;$/;"	m	struct:Console_State	typeref:enum:Console_State::State	file:
+stats	include/geekos/fileio.h	/^    struct VFS_File_Stat stats;$/;"	m	struct:VFS_Dir_Entry	typeref:struct:VFS_Dir_Entry::VFS_File_Stat
+stats	src/geekos/bget.c	/^static void stats(when)$/;"	f	file:
+strcat	src/common/string.c	/^char *strcat(char *s1, const char *s2)$/;"	f
+strchr	src/common/string.c	/^char *strchr(const char *s, int c)$/;"	f
+strcmp	src/common/string.c	/^int strcmp(const char* s1, const char* s2)$/;"	f
+strcpy	src/common/string.c	/^char *strcpy(char *dest, const char *src)$/;"	f
+strdup	src/common/string.c	/^char *strdup(const char *s1)$/;"	f
+strlen	src/common/string.c	/^size_t strlen(const char* s)$/;"	f
+strncmp	src/common/string.c	/^int strncmp(const char* s1, const char* s2, size_t limit)$/;"	f
+strncpy	src/common/string.c	/^char *strncpy(char *dest, const char *src, size_t limit)$/;"	f
+strnlen	src/common/string.c	/^size_t strnlen(const char *s, size_t maxlen)$/;"	f
+strpbrk	src/common/string.c	/^char *strpbrk(const char *s, const char *accept)$/;"	f
+strrchr	src/common/string.c	/^char *strrchr(const char *s, int c)$/;"	f
+system	include/geekos/segment.h	/^    uint_t system      : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+systemFile	include/geekos/pfat.h	/^    char systemFile:1;$/;"	m	struct:__anon9
+temp	src/geekos/syscall.c	/^int temp;$/;"	v
+ticks	include/geekos/timer.h	/^    int ticks;				 \/* timer code decrements this *\/$/;"	m	struct:__anon10
+time	include/geekos/pfat.h	/^    short time;$/;"	m	struct:__anon9
+timeEventCount	src/geekos/timer.c	/^static int timeEventCount;$/;"	v	file:
+timerCallback	include/geekos/timer.h	/^typedef void (*timerCallback)(int);$/;"	t
+timerDebug	src/geekos/timer.c	/^static int timerDebug = 0;$/;"	v	file:
+timerEvent	include/geekos/timer.h	/^} timerEvent;$/;"	t	typeref:struct:__anon10
+tlocalData	include/geekos/kthread.h	/^    const void* tlocalData[MAX_TLOCAL_KEYS];$/;"	m	struct:Kernel_Thread
+tlocal_destructor_t	include/geekos/kthread.h	/^typedef void (*tlocal_destructor_t)(void *);$/;"	t
+tlocal_key_t	include/geekos/kthread.h	/^typedef unsigned int tlocal_key_t;$/;"	t
+totalloc	src/geekos/bget.c	/^static bufsize totalloc = 0;	      \/* Total space currently allocated *\/$/;"	v	file:
+track	src/geekos/bootsect.asm	/^track: dw 0$/;"	d
+track	src/geekos/fd_boot.asm	/^track: dw 0$/;"	d
+tsize	src/geekos/bget.c	/^    bufsize tsize;		      \/* Total size, including overhead *\/$/;"	m	struct:bdhead	file:
+type	include/geekos/blockdev.h	/^    enum Request_Type type;$/;"	m	struct:Block_Request	typeref:enum:Block_Request::Request_Type
+type	include/geekos/elf.h	/^    unsigned  int   type;$/;"	m	struct:__anon7
+type	include/geekos/elf.h	/^    unsigned  short	type;$/;"	m	struct:__anon6
+type	include/geekos/segment.h	/^    uint_t type        : 4  PACKED ;$/;"	m	struct:Segment_Descriptor
+uchar_t	include/geekos/ktypes.h	/^typedef unsigned char uchar_t;$/;"	t
+uid	include/geekos/fileio.h	/^    uint_t uid:28;$/;"	m	struct:VFS_ACL_Entry
+uint_t	include/geekos/ktypes.h	/^typedef unsigned int uint_t;$/;"	t
+uintmax_t	src/common/fmtout.c	/^typedef unsigned long uintmax_t;$/;"	t	file:
+uintptr_t	src/common/fmtout.c	/^typedef unsigned long uintptr_t;$/;"	t	file:
+ulong_t	include/geekos/ktypes.h	/^typedef unsigned long ulong_t;$/;"	t
+unit	include/geekos/blockdev.h	/^    int unit;$/;"	m	struct:Block_Device
+userContext	include/geekos/kthread.h	/^    struct User_Context* userContext;$/;"	m	struct:Kernel_Thread	typeref:struct:Kernel_Thread::User_Context
+userModeFault	include/geekos/paging.h	/^    uint_t userModeFault:1;$/;"	m	struct:__anon3
+ushort_t	include/geekos/ktypes.h	/^typedef unsigned short ushort_t;$/;"	t
+vaddr	include/geekos/elf.h	/^    unsigned  int   vaddr;$/;"	m	struct:__anon7
+vaddr	include/geekos/mem.h	/^    ulong_t vaddr;			 \/* User virtual address where page is mapped *\/$/;"	m	struct:Page
+validBlockSet	src/geekos/pfat.c	/^    struct Bit_Set *validBlockSet;	 \/* Which data blocks of cache are valid *\/$/;"	m	struct:PFAT_File	typeref:struct:PFAT_File::Bit_Set	file:
+version	include/geekos/elf.h	/^    unsigned  int	version;$/;"	m	struct:__anon6
+volumeLabel	include/geekos/pfat.h	/^    char volumeLabel:1;$/;"	m	struct:__anon9
+waitQueue	include/geekos/blockdev.h	/^    struct Thread_Queue *waitQueue;$/;"	m	struct:Block_Device	typeref:struct:Block_Device::Thread_Queue
+waitQueue	include/geekos/blockdev.h	/^    struct Thread_Queue waitQueue;$/;"	m	struct:Block_Request	typeref:struct:Block_Request::Thread_Queue
+waitQueue	include/geekos/kthread.h	/^	struct Thread_Queue waitQueue;$/;"	m	struct:semaphore	typeref:struct:semaphore::Thread_Queue
+waitQueue	include/geekos/synch.h	/^    struct Thread_Queue waitQueue;$/;"	m	struct:Condition	typeref:struct:Condition::Thread_Queue
+waitQueue	include/geekos/synch.h	/^    struct Thread_Queue waitQueue;$/;"	m	struct:Mutex	typeref:struct:Mutex::Thread_Queue
+writeFault	include/geekos/paging.h	/^    uint_t writeFault:1;$/;"	m	struct:__anon3
+writefd	src/user/shell.c	/^	int readfd, writefd;$/;"	m	struct:Process	file:
